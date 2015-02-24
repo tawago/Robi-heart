@@ -1,0 +1,383 @@
+0x0010,2,Revision
+0x0048,2,ServoEnable
+0x0084,4,Random
+0x0080,4,TripTime
+0x0090,2,Voltage
+0x017c,4,ErrorAdr
+0x01fb,1,ExecCtrl
+0x0b42,1,TBuffN
+0x0b43,1,IPBusy
+0x0b44,1,IPReset
+0x0C00,2,PosSld000
+0x0C02,2,PosSld001
+0x0C04,2,PosSld002
+0x0C06,2,PosSld003
+0x0C08,2,PosSld004
+0x0C0A,2,PosSld005
+0x0C0C,2,PosSld006
+0x0C0E,2,PosSld007
+0x0C10,2,PosSld008
+0x0C12,2,PosSld009
+0x0C14,2,PosSld010
+0x0C16,2,PosSld011
+0x0C18,2,PosSld012
+0x0C1A,2,PosSld013
+0x0C1C,2,PosSld014
+0x0C1E,2,PosSld015
+0x0C20,2,PosSld016
+0x0C22,2,PosSld017
+0x0C24,2,PosSld018
+0x0C26,2,PosSld019
+0x0C28,2,PosSld020
+0x0C2A,2,PosSld021
+0x0C2C,2,PosSld022
+0x0C2E,2,PosSld023
+0x0C30,2,PosSld024
+0x0C32,2,PosSld025
+0x0C34,2,PosSld026
+0x0C36,2,PosSld027
+0x0C38,2,PosSld028
+0x0C3A,2,PosSld029
+0x0C3C,2,PosSld030
+0x0C3E,2,PosSld031
+0x0C40,2,PosSld032
+0x0C42,2,PosSld033
+0x0C44,2,PosSld034
+0x0C46,2,PosSld035
+0x0C48,2,PosSld036
+0x0C4A,2,PosSld037
+0x0C4C,2,PosSld038
+0x0C4E,2,PosSld039
+0x0C50,2,PosSld040
+0x0C52,2,PosSld041
+0x0C54,2,PosSld042
+0x0C56,2,PosSld043
+0x0C58,2,PosSld044
+0x0C5A,2,PosSld045
+0x0C5C,2,PosSld046
+0x0C5E,2,PosSld047
+0x0C60,2,PosSld048
+0x0C62,2,PosSld049
+0x0C64,2,PosSld050
+0x0C66,2,PosSld051
+0x0C68,2,PosSld052
+0x0C6A,2,PosSld053
+0x0C6C,2,PosSld054
+0x0C6E,2,PosSld055
+0x0C70,2,PosSld056
+0x0C72,2,PosSld057
+0x0C74,2,PosSld058
+0x0C76,2,PosSld059
+0x0C78,2,PosSld060
+0x0C7A,2,PosSld061
+0x0C7C,2,PosSld062
+0x0C7E,2,PosSld063
+0x0C80,2,PosSld064
+0x0C82,2,PosSld065
+0x0C84,2,PosSld066
+0x0C86,2,PosSld067
+0x0C88,2,PosSld068
+0x0C8A,2,PosSld069
+0x0C8C,2,PosSld070
+0x0C8E,2,PosSld071
+0x0C90,2,PosSld072
+0x0C92,2,PosSld073
+0x0C94,2,PosSld074
+0x0C96,2,PosSld075
+0x0C98,2,PosSld076
+0x0C9A,2,PosSld077
+0x0C9C,2,PosSld078
+0x0C9E,2,PosSld079
+0x0CA0,2,PosSld080
+0x0CA2,2,PosSld081
+0x0CA4,2,PosSld082
+0x0CA6,2,PosSld083
+0x0CA8,2,PosSld084
+0x0CAA,2,PosSld085
+0x0CAC,2,PosSld086
+0x0CAE,2,PosSld087
+0x0CB0,2,PosSld088
+0x0CB2,2,PosSld089
+0x0CB4,2,PosSld090
+0x0CB6,2,PosSld091
+0x0CB8,2,PosSld092
+0x0CBA,2,PosSld093
+0x0CBC,2,PosSld094
+0x0CBE,2,PosSld095
+0x0CC0,2,PosSld096
+0x0CC2,2,PosSld097
+0x0CC4,2,PosSld098
+0x0CC6,2,PosSld099
+0x0CC8,2,PosSld100
+0x0CCA,2,PosSld101
+0x0CCC,2,PosSld102
+0x0CCE,2,PosSld103
+0x0CD0,2,PosSld104
+0x0CD2,2,PosSld105
+0x0CD4,2,PosSld106
+0x0CD6,2,PosSld107
+0x0CD8,2,PosSld108
+0x0CDA,2,PosSld109
+0x0CDC,2,PosSld110
+0x0CDE,2,PosSld111
+0x0CE0,2,PosSld112
+0x0CE2,2,PosSld113
+0x0CE4,2,PosSld114
+0x0CE6,2,PosSld115
+0x0CE8,2,PosSld116
+0x0CEA,2,PosSld117
+0x0CEC,2,PosSld118
+0x0CEE,2,PosSld119
+0x0CF0,2,PosSld120
+0x0CF2,2,PosSld121
+0x0CF4,2,PosSld122
+0x0CF6,2,PosSld123
+0x0CF8,2,PosSld124
+0x0CFA,2,PosSld125
+0x0CFC,2,PosSld126
+0x0CFE,2,PosSld127
+0x0d00,2,ID01Ovr
+0x0d02,2,ID02Ovr
+0x0d04,2,ID03Ovr
+0x0d06,2,ID04Ovr
+0x0d08,2,ID05Ovr
+0x0d0a,2,ID06Ovr
+0x0d0c,2,ID07Ovr
+0x0d0e,2,ID08Ovr
+0x0d10,2,ID09Ovr
+0x0d12,2,ID10Ovr
+0x0d14,2,ID11Ovr
+0x0d16,2,ID12Ovr
+0x0d18,2,ID13Ovr
+0x0d1a,2,ID14Ovr
+0x0d1c,2,ID15Ovr
+0x0d1e,2,ID16Ovr
+0x0d20,2,ID17Ovr
+0x0d22,2,ID18Ovr
+0x0d24,2,ID19Ovr
+0x0d26,2,ID20Ovr
+0x0d28,2,ID21Ovr
+0x0d2a,2,ID22Ovr
+0x0d2c,2,ID23Ovr
+0x0d2e,2,ID24Ovr
+0x0d80,2,ID01Position
+0x0d82,2,ID02Position
+0x0d84,2,ID03Position
+0x0d86,2,ID04Position
+0x0d88,2,ID05Position
+0x0d8a,2,ID06Position
+0x0d8c,2,ID07Position
+0x0d8e,2,ID08Position
+0x0d90,2,ID09Position
+0x0d92,2,ID10Position
+0x0d94,2,ID11Position
+0x0d96,2,ID12Position
+0x0d98,2,ID13Position
+0x0d9a,2,ID14Position
+0x0d9c,2,ID15Position
+0x0d9e,2,ID16Position
+0x0da0,2,ID17Position
+0x0da2,2,ID18Position
+0x0da4,2,ID19Position
+0x0da6,2,ID20Position
+0x0da8,2,ID21Position
+0x0daa,2,ID22Position
+0x0dac,2,ID23Position
+0x0dae,2,ID24Position
+0x0dc0,1,ID1 MaxTorque
+0x0dc1,1,ID1 TorqueEnable
+0x0dc2,1,ID2 MaxTorque
+0x0dc3,1,ID2 TorqueEnable
+0x0dc4,1,ID3 MaxTorque
+0x0dc5,1,ID3 TorqueEnable
+0x0dc6,1,ID4 MaxTorque
+0x0dc7,1,ID4 TorqueEnable
+0x0dc8,1,ID5 MaxTorque
+0x0dc9,1,ID5 TorqueEnable
+0x0dca,1,ID6 MaxTorque
+0x0dcb,1,ID6 TorqueEnable
+0x0dcc,1,ID7 MaxTorque
+0x0dcd,1,ID7 TorqueEnable
+0x0dce,1,ID8 MaxTorque
+0x0dcf,1,ID8 TorqueEnable
+0x0dd0,1,ID9 MaxTorque
+0x0dd1,1,ID9 TorqueEnable
+0x0dd2,1,ID10 MaxTorque
+0x0dd3,1,ID10 TorqueEnable
+0x0dd4,1,ID11 MaxTorque
+0x0dd5,1,ID11 TorqueEnable
+0x0dd6,1,ID12 MaxTorque
+0x0dd7,1,ID12 TorqueEnable
+0x0dd8,1,ID13 MaxTorque
+0x0dd9,1,ID13 TorqueEnable
+0x0dda,1,ID14 MaxTorque
+0x0ddb,1,ID14 TorqueEnable
+0x0ddc,1,ID15 MaxTorque
+0x0ddd,1,ID15 TorqueEnable
+0x0dde,1,ID16 MaxTorque
+0x0ddf,1,ID16 TorqueEnable
+0x0de0,1,ID17 MaxTorque
+0x0de1,1,ID17 TorqueEnable
+0x0de2,1,ID18 MaxTorque
+0x0de3,1,ID18 TorqueEnable
+0x0de4,1,ID19 MaxTorque
+0x0de5,1,ID19 TorqueEnable
+0x0de6,1,ID20 MaxTorque
+0x0de7,1,ID20 TorqueEnable
+0x0de8,1,ID21 MaxTorque
+0x0de9,1,ID21 TorqueEnable
+0x0dea,1,ID22 MaxTorque
+0x0deb,1,ID22 TorqueEnable
+0x0dec,1,ID23 MaxTorque
+0x0ded,1,ID23 TorqueEnable
+0x0dee,1,ID24 MaxTorque
+0x0def,1,ID24 TorqueEnable
+0x0e00,2,GSensorStatus
+0x0e02,2,GSensorX
+0x0e04,2,GSensorY
+0x0e06,2,GSensorZ
+0x0e10,2,LEDStatus
+0x0e12,2,Sensor0
+0x0e14,2,Sensor1
+0x0e50,2,BSRM01_Status
+0x0e52,2,BSRM01_SCENE_w
+0x0e54,2,BSRM01_SCENE_r
+0x0e56,2,BSRM01_SRREG_w
+0x0e58,2,BSRM01_SRREG_r
+0x0e5a,2,BSRM01_STATUS_r
+0x0e5c,2,BSRM01_RCGCD1H_r
+0x0e60,2,Remote Ctrl Status
+0x0e62,2,Remote Ctrl TX
+0x0f00,2,Variable00
+0x0f02,2,Variable01
+0x0f04,2,Variable02
+0x0f06,2,Variable03
+0x0f08,2,Variable04
+0x0f0a,2,Variable05
+0x0f0c,2,Variable06
+0x0f0e,2,Variable07
+0x0f10,2,Variable08
+0x0f12,2,Variable09
+0x0f14,2,Variable0a
+0x0f16,2,Variable0b
+0x0f18,2,Variable0c
+0x0f1a,2,Variable0d
+0x0f1c,2,Variable0e
+0x0f1e,2,Variable0f
+0x0f20,2,Variable10
+0x0f22,2,Variable11
+0x0f24,2,Variable12
+0x0f26,2,Variable13
+0x0f28,2,Variable14
+0x0f2a,2,Variable15
+0x0f2c,2,Variable16
+0x0f2e,2,Variable17
+0x0f30,2,Variable18
+0x0f32,2,Variable19
+0x0f34,2,Variable1a
+0x0f36,2,Variable1b
+0x0f38,2,Variable1c
+0x0f3a,2,Variable1d
+0x0f3c,2,Variable1e
+0x0f3e,2,Variable1f
+0x0f40,2,Variable20
+0x0f42,2,Variable21
+0x0f44,2,Variable22
+0x0f46,2,Variable23
+0x0f48,2,Variable24
+0x0f4a,2,Variable25
+0x0f4c,2,Variable26
+0x0f4e,2,Variable27
+0x0f50,2,Variable28
+0x0f52,2,Variable29
+0x0f54,2,Variable2a
+0x0f56,2,Variable2b
+0x0f58,2,Variable2c
+0x0f5a,2,Variable2d
+0x0f5c,2,Variable2e
+0x0f5e,2,Variable2f
+0x0f60,2,Variable30
+0x0f62,2,Variable31
+0x0f64,2,Variable32
+0x0f66,2,Variable33
+0x0f68,2,Variable34
+0x0f6a,2,Variable35
+0x0f6c,2,Variable36
+0x0f6e,2,Variable37
+0x0f70,4,LVariable00
+0x0f74,4,LVariable01
+0x0f78,4,LVariable02
+0x0f7c,4,LVariable03
+0x0f80,2,InitFlag
+0x0f82,1,NowPose
+0x0f83,1,NowLookDir
+0x0f84,1,NowRecogScene
+0x0f9e,2,ForHumanSn0_1
+0x0fa0,2,ForHumanSn0_2
+0x0fa2,2,ForHumanSn1_1
+0x0fa4,2,ForHumanSn1_2
+0x0fa6,2,ForVoltage
+0x0fa8,1,RetuenB
+0x0faa,2,RetuenW
+0x0fac,4,RetuenL
+0x0fb0,2,ForID2Potentio
+0x0fb2,2,ForID3Potentio
+0x0fb4,2,ForID4Potentio
+0x0fb6,2,ForID5Potentio
+0x0fb8,2,ForID6Potentio
+0x0fba,2,ForID7Potentio
+0x0fbc,2,ForID8Potentio
+0x0fbe,2,ForID9Potentio
+0x0fc0,2,ForID10Potentio
+0x0fc2,2,ForID11Potentio
+0x0fc4,2,ForID12Potentio
+0x0fc6,2,ForID13Potentio
+0x0fc8,2,ForID14Potentio
+0x0fca,2,ForID15Potentio
+0x0fcc,2,ForID16Potentio
+0x0fce,2,ForID17Potentio
+0x0fd0,2,ForID18Potentio
+0x0fd2,2,ForID19Potentio
+0x0fd4,2,ForID20Potentio
+0x0fd6,2,ForID21Potentio
+0x0fd8,2,ForID22Potentio
+0x0fda,2,ForID23Potentio
+0x0fdc,2,ForID24Potentio
+0x0fde,2,ForID25Potentio
+0x0fe0,4,ForTripTime1
+0x0fe4,4,ForTripTime2
+0x0fe8,4,ForTripTime3
+0x0fec,4,ForTripTime4
+0x0ff0,2,Personality01
+0x0ff2,2,Personality02
+0x0ff4,2,Personality03
+0x0ff6,2,Personality04
+0x0ff8,2,Personality05
+0x0ffa,2,Personality06
+0x0ffc,2,Personality07
+0x0ffe,2,Personality08
+0x100a,2,ID1_Offset
+0x104a,2,ID2_Offset
+0x108a,2,ID3_Offset
+0x10ca,2,ID4_Offset
+0x110a,2,ID5_Offset
+0x114a,2,ID6_Offset
+0x118a,2,ID7_Offset
+0x11ca,2,ID8_Offset
+0x120a,2,ID9_Offset
+0x124a,2,ID10_Offset
+0x128a,2,ID11_Offset
+0x12ca,2,ID12_Offset
+0x130a,2,ID13_Offset
+0x134a,2,ID14_Offset
+0x138a,2,ID15_Offset
+0x13ca,2,ID16_Offset
+0x140a,2,ID17_Offset
+0x144a,2,ID18_Offset
+0x148a,2,ID19_Offset
+0x14ca,2,ID20_Offset
+0x150a,2,ID21_Offset
+0x154a,2,ID22_Offset
+0x158a,2,ID23_Offset
+0x1600,1,ê´äiåàíËÉtÉâÉO
+0x1601,1,ê´äi

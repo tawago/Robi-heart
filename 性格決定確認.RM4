@@ -1,0 +1,386 @@
+<medit>
+	<format data="1"/>
+</medit>
+
+
+<medit>
+	<block name="" type="3" xpos="50" ypos="10" bluearrow="6" redarrow="0"/>
+</medit>
+<jump adr="0x00000d47"/>
+
+
+<medit>
+	<block name="ダミー" type="0" xpos="250" ypos="100" bluearrow="6" redarrow="6"/>
+</medit>
+<mem_w size="2" adr="0x0a00">
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0064,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x00ff,0x0000,0x0000,0x00ff,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
+</mem_w>
+<mem_w size="2" adr="0x0b00">0x0023</mem_w>
+<wait size="1" adr="0x0b43"/>
+<medit>
+	<servoenable size="1" data="100"/>
+	<servoenable size="2" data="100"/>
+	<servoenable size="3" data="100"/>
+	<servoenable size="4" data="100"/>
+	<servoenable size="5" data="100"/>
+	<servoenable size="6" data="100"/>
+	<servoenable size="7" data="100"/>
+	<servoenable size="8" data="100"/>
+	<servoenable size="9" data="100"/>
+	<servoenable size="10" data="100"/>
+	<servoenable size="12" data="100"/>
+	<servoenable size="13" data="100"/>
+	<servoenable size="14" data="100"/>
+	<servoenable size="15" data="100"/>
+	<servoenable size="16" data="100"/>
+	<servoenable size="17" data="100"/>
+	<servoenable size="18" data="100"/>
+	<servoenable size="19" data="100"/>
+	<servoenable size="20" data="100"/>
+</medit>
+<jump adr="0x00001253"/>
+
+
+<medit>
+	<block name="   END   " type="4" xpos="520" ypos="710" bluearrow="16" redarrow="46"/>
+</medit>
+<return/>
+
+
+<medit>
+	<block name="音声認識を開始(SRREG+0x80)~~" type="2" xpos="250" ypos="230" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="8585216" adr="0x0e56">
+		<vconst data="65667"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="131"/>
+	<mem_w size="2" adr="0x0e56"/>
+</calc>
+<jump adr="0x000011b8"/>
+
+
+<medit>
+	<block name="音声認識処理が完了？~~" type="1" xpos="260" ypos="330" bluearrow="54" redarrow="26"/>
+	<varcalc size="2" data="65543" adr="0x0e5a">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="1"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00000ba2"/>
+</calc>
+
+<jump adr="0x000011b8"/>
+
+
+<medit>
+	<block name="何も聞き取れなかったか？~~" type="1" xpos="250" ypos="400" bluearrow="11" redarrow="64"/>
+	<varcalc size="2" data="131079" adr="0x0e5a">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="2"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00001065"/>
+</calc>
+
+<jump adr="0x00002855"/>
+
+
+<medit>
+	<block name="シーンを設定(シーン値+0x80)~~" type="2" xpos="20" ypos="50" bluearrow="16" redarrow="6"/>
+	<varcalc size="2" data="8454144" adr="0x0e52">
+		<vconst data="65665"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="129"/>
+	<mem_w size="2" adr="0x0e52"/>
+</calc>
+<jump adr="0x0000111f"/>
+
+
+<medit>
+	<block name="音声のSTATUSがBUSYか~~" type="1" xpos="30" ypos="150" bluearrow="112" redarrow="22"/>
+	<varcalc size="2" data="8388615" adr="0x0e5a">
+		<vconst data="65664"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="128"/>
+	<and/>
+	<ne/>
+	<jump adr="0x0000111f"/>
+</calc>
+
+<jump adr="0x00001065"/>
+
+
+<medit>
+	<block name="音声「これで良いですか?」~" type="6" xpos="250" ypos="50" bluearrow="6" redarrow="6"/>
+</medit>
+<play filename="voice\324b.wav"/>
+<jump adr="0x000000a8"/>
+
+
+<medit>
+	<block name="<< Wait >>~" type="10" xpos="60" ypos="100" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="1"/>
+<jump adr="0x00000ec1"/>
+
+<medit>
+	<block name="<< Wait >>~~" type="10" xpos="290" ypos="280" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="1"/>
+<jump adr="0x00000a02"/>
+
+<medit>
+	<block name="ダミー~" type="0" xpos="320" ypos="120" bluearrow="6" redarrow="6"/>
+</medit>
+<mem_w size="2" adr="0x0a00">
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0064,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x00ff,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
+</mem_w>
+<mem_w size="2" adr="0x0b00">0x0023</mem_w>
+<wait size="1" adr="0x0b43"/>
+<medit>
+	<servoenable size="1" data="100"/>
+	<servoenable size="2" data="100"/>
+	<servoenable size="3" data="100"/>
+	<servoenable size="4" data="100"/>
+	<servoenable size="5" data="100"/>
+	<servoenable size="6" data="100"/>
+	<servoenable size="7" data="100"/>
+	<servoenable size="8" data="100"/>
+	<servoenable size="9" data="100"/>
+	<servoenable size="10" data="100"/>
+	<servoenable size="12" data="100"/>
+	<servoenable size="13" data="100"/>
+	<servoenable size="14" data="100"/>
+	<servoenable size="15" data="100"/>
+	<servoenable size="16" data="100"/>
+	<servoenable size="17" data="100"/>
+	<servoenable size="18" data="100"/>
+	<servoenable size="19" data="100"/>
+	<servoenable size="20" data="100"/>
+</medit>
+
+
+<medit>
+	<block name="ダミー~" type="0" xpos="250" ypos="150" bluearrow="6" redarrow="6"/>
+</medit>
+<mem_w size="2" adr="0x0a00">
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0064,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x00ff,0x0000,0x00ff,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
+</mem_w>
+<mem_w size="2" adr="0x0b00">0x0023</mem_w>
+<wait size="1" adr="0x0b43"/>
+<medit>
+	<servoenable size="1" data="100"/>
+	<servoenable size="2" data="100"/>
+	<servoenable size="3" data="100"/>
+	<servoenable size="4" data="100"/>
+	<servoenable size="5" data="100"/>
+	<servoenable size="6" data="100"/>
+	<servoenable size="7" data="100"/>
+	<servoenable size="8" data="100"/>
+	<servoenable size="9" data="100"/>
+	<servoenable size="10" data="100"/>
+	<servoenable size="12" data="100"/>
+	<servoenable size="13" data="100"/>
+	<servoenable size="14" data="100"/>
+	<servoenable size="15" data="100"/>
+	<servoenable size="16" data="100"/>
+	<servoenable size="17" data="100"/>
+	<servoenable size="18" data="100"/>
+	<servoenable size="19" data="100"/>
+	<servoenable size="20" data="100"/>
+</medit>
+
+
+<medit>
+	<block name="ダミー~~" type="0" xpos="320" ypos="170" bluearrow="6" redarrow="6"/>
+</medit>
+<mem_w size="2" adr="0x0a00">
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0064,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x00ff,0x00ff,0x00ff,0x00ff,0x00ff,0x00ff,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
+</mem_w>
+<mem_w size="2" adr="0x0b00">0x0023</mem_w>
+<wait size="1" adr="0x0b43"/>
+<medit>
+	<servoenable size="1" data="100"/>
+	<servoenable size="2" data="100"/>
+	<servoenable size="3" data="100"/>
+	<servoenable size="4" data="100"/>
+	<servoenable size="5" data="100"/>
+	<servoenable size="6" data="100"/>
+	<servoenable size="7" data="100"/>
+	<servoenable size="8" data="100"/>
+	<servoenable size="9" data="100"/>
+	<servoenable size="10" data="100"/>
+	<servoenable size="12" data="100"/>
+	<servoenable size="13" data="100"/>
+	<servoenable size="14" data="100"/>
+	<servoenable size="15" data="100"/>
+	<servoenable size="16" data="100"/>
+	<servoenable size="17" data="100"/>
+	<servoenable size="18" data="100"/>
+	<servoenable size="19" data="100"/>
+	<servoenable size="20" data="100"/>
+</medit>
+<jump adr="0x00000888"/>
+
+
+<medit>
+	<block name="「はい」？" type="1" xpos="250" ypos="460" bluearrow="12" redarrow="46"/>
+	<varcalc size="2" data="14090240" adr="0x0e5c">
+		<vconst data="65751"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="215"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00002b8b"/>
+</calc>
+
+<jump adr="0x000029ee"/>
+
+
+<medit>
+	<block name="「いいえ」」？" type="1" xpos="250" ypos="520" bluearrow="82" redarrow="46"/>
+	<varcalc size="2" data="14155776" adr="0x0e5c">
+		<vconst data="65752"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="216"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00002cfe"/>
+</calc>
+
+<jump adr="0x00003055"/>
+
+
+<medit>
+	<block name="性格決定フラグに1書き込み" type="2" xpos="560" ypos="550" bluearrow="6" redarrow="6"/>
+	<varcalc size="1" data="65536" adr="0x1600">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="1"/>
+	<mem_w size="1" adr="0x1600"/>
+</calc>
+<jump adr="0x00002e6d"/>
+
+
+<medit>
+	<block name="性格決定フラグに0書き込み" type="2" xpos="420" ypos="550" bluearrow="6" redarrow="6"/>
+	<varcalc size="1" data="0" adr="0x1600">
+		<vconst data="65536"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="0"/>
+	<mem_w size="1" adr="0x1600"/>
+</calc>
+<jump adr="0x00002fa8"/>
+
+
+<medit>
+	<block name="音声「はい」" type="6" xpos="570" ypos="610" bluearrow="6" redarrow="6"/>
+</medit>
+<play filename="voice\082.wav"/>
+
+
+<medit>
+	<block name="<< Wait >>~~~" type="10" xpos="510" ypos="660" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="120"/>
+<return/>
+<jump adr="0x0000080e"/>
+
+<medit>
+	<block name="音声「了解」~" type="6" xpos="460" ypos="610" bluearrow="6" redarrow="6"/>
+</medit>
+<play filename="voice\080.wav"/>
+<jump adr="0x00002eff"/>
+
+
+<medit>
+	<block name="「違うよ」？~~~~" type="1" xpos="243" ypos="567" bluearrow="82" redarrow="46"/>
+	<varcalc size="2" data="14876672" adr="0x0e5c">
+		<vconst data="65763"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="227"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00002cfe"/>
+</calc>
+
+<jump adr="0x00001065"/>
+
+

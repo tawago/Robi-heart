@@ -1,0 +1,3836 @@
+<medit>
+	<format data="2"/>
+</medit>
+
+
+<medit>
+	<block name="" type="3" xpos="50" ypos="10" bluearrow="6" redarrow="0"/>
+</medit>
+<jump adr="0x0000089a"/>
+
+
+<medit>
+	<block name="POSE 0" type="0" xpos="301" ypos="6" bluearrow="6" redarrow="6"/>
+</medit>
+<mem_w size="2" adr="0x0a00">
+	0x0000,0x0000,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,
+	0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x00aa,0x0046,0x0000,0x00aa,0x0046,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
+</mem_w>
+<mem_w size="2" adr="0x0b00">0x0032</mem_w>
+<wait size="1" adr="0x0b43"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="114" ypos="38" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF01.wav"/>
+<jump adr="0x00000929"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="114" ypos="84" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF02.wav"/>
+<jump adr="0x000009b8"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="116" ypos="134" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF03.wav"/>
+<jump adr="0x00000a48"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="116" ypos="179" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF04.wav"/>
+<jump adr="0x00000e44"/>
+
+
+<medit>
+	<block name="" type="10" xpos="10" ypos="38" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00000530"/>
+
+<medit>
+	<block name="" type="10" xpos="11" ypos="82" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000060a"/>
+
+<medit>
+	<block name="" type="10" xpos="12" ypos="126" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000006e4"/>
+
+<medit>
+	<block name="" type="10" xpos="10" ypos="171" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000007bf"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="119" ypos="223" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF05.wav"/>
+<jump adr="0x00000ed4"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="119" ypos="274" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF06.wav"/>
+<jump adr="0x00000f64"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="122" ypos="320" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF07.wav"/>
+<jump adr="0x00000ff4"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="121" ypos="366" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF08.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="" type="10" xpos="12" ypos="220" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00000ad8"/>
+
+<medit>
+	<block name="" type="10" xpos="11" ypos="265" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00000bb3"/>
+
+<medit>
+	<block name="" type="10" xpos="12" ypos="312" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00000c8e"/>
+
+<medit>
+	<block name="" type="10" xpos="12" ypos="360" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00000d69"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="123" ypos="409" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF09.wav"/>
+<jump adr="0x00001480"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="126" ypos="459" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF10.wav"/>
+<jump adr="0x00001d92"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="125" ypos="602" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF13.wav"/>
+<jump adr="0x000015a0"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="127" ypos="649" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF14.wav"/>
+<jump adr="0x0000199c"/>
+
+
+<medit>
+	<block name="" type="10" xpos="11" ypos="407" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00001084"/>
+
+<medit>
+	<block name="" type="10" xpos="10" ypos="453" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000115f"/>
+
+<medit>
+	<block name="" type="10" xpos="15" ypos="601" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000123a"/>
+
+<medit>
+	<block name="" type="10" xpos="15" ypos="649" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00001315"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="128" ypos="697" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF15.wav"/>
+<jump adr="0x00001a2c"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="129" ypos="746" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF16.wav"/>
+<jump adr="0x00001abc"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="130" ypos="791" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF17.wav"/>
+<jump adr="0x00001b4c"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="130" ypos="837" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF18.wav"/>
+<jump adr="0x00002220"/>
+
+
+<medit>
+	<block name="" type="10" xpos="16" ypos="695" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00001630"/>
+
+<medit>
+	<block name="" type="10" xpos="15" ypos="742" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000170b"/>
+
+<medit>
+	<block name="" type="10" xpos="15" ypos="791" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000017e6"/>
+
+<medit>
+	<block name="" type="10" xpos="15" ypos="835" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000018c1"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="126" ypos="508" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF11.wav"/>
+<jump adr="0x00001e22"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="126" ypos="558" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF12.wav"/>
+<jump adr="0x00001510"/>
+
+
+<medit>
+	<block name="" type="10" xpos="14" ypos="504" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00001bdc"/>
+
+<medit>
+	<block name="" type="10" xpos="14" ypos="549" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00001cb7"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="130" ypos="891" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF19.wav"/>
+<jump adr="0x000022b0"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="133" ypos="941" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF20.wav"/>
+<jump adr="0x00002bcd"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="135" ypos="1086" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF23.wav"/>
+<jump adr="0x000023d1"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="135" ypos="1134" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF24.wav"/>
+<jump adr="0x000027d2"/>
+
+
+<medit>
+	<block name="" type="10" xpos="16" ypos="887" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00001eb2"/>
+
+<medit>
+	<block name="" type="10" xpos="16" ypos="935" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00001f8d"/>
+
+<medit>
+	<block name="" type="10" xpos="18" ypos="1083" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00002068"/>
+
+<medit>
+	<block name="" type="10" xpos="18" ypos="1131" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00002144"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="135" ypos="1176" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF25.wav"/>
+<jump adr="0x00002863"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="134" ypos="1224" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF26.wav"/>
+<jump adr="0x000028f4"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="136" ypos="1272" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF27.wav"/>
+<jump adr="0x00002985"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="133" ypos="1317" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF28.wav"/>
+<jump adr="0x00002ea6"/>
+
+
+<medit>
+	<block name="" type="10" xpos="19" ypos="1177" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00002462"/>
+
+<medit>
+	<block name="" type="10" xpos="17" ypos="1223" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000253e"/>
+
+<medit>
+	<block name="" type="10" xpos="18" ypos="1269" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000261a"/>
+
+<medit>
+	<block name="" type="10" xpos="17" ypos="1314" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000026f6"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="135" ypos="986" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF21.wav"/>
+<jump adr="0x00002c5d"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="133" ypos="1037" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF22.wav"/>
+<jump adr="0x00002340"/>
+
+
+<medit>
+	<block name="" type="10" xpos="16" ypos="980" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00002a16"/>
+
+<medit>
+	<block name="" type="10" xpos="18" ypos="1031" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00002af1"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="133" ypos="1359" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF29.wav"/>
+<jump adr="0x00002f37"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="137" ypos="1409" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF30.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="" type="10" xpos="18" ypos="1360" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00002cee"/>
+
+<medit>
+	<block name="" type="10" xpos="18" ypos="1411" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00002dca"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="132" ypos="1559" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF33.wav"/>
+<jump adr="0x00003211"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="131" ypos="1607" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF34.wav"/>
+<jump adr="0x00003612"/>
+
+
+<medit>
+	<block name="" type="10" xpos="22" ypos="1555" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00002fc8"/>
+
+<medit>
+	<block name="" type="10" xpos="23" ypos="1602" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000030a4"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="131" ypos="1652" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF35.wav"/>
+<jump adr="0x000036a3"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="129" ypos="1698" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF36.wav"/>
+<jump adr="0x00003734"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="135" ypos="1744" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF37.wav"/>
+<jump adr="0x000037c5"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="133" ypos="1789" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF38.wav"/>
+<jump adr="0x00003ce8"/>
+
+
+<medit>
+	<block name="" type="10" xpos="24" ypos="1652" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000032a2"/>
+
+<medit>
+	<block name="" type="10" xpos="25" ypos="1697" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000337e"/>
+
+<medit>
+	<block name="" type="10" xpos="23" ypos="1742" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000345a"/>
+
+<medit>
+	<block name="" type="10" xpos="22" ypos="1788" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00003536"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="131" ypos="1456" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF31.wav"/>
+<jump adr="0x00003a9f"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="135" ypos="1511" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF32.wav"/>
+<jump adr="0x00003180"/>
+
+
+<medit>
+	<block name="" type="10" xpos="20" ypos="1459" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00003856"/>
+
+<medit>
+	<block name="" type="10" xpos="21" ypos="1505" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00003932"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="131" ypos="1837" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF39.wav"/>
+<jump adr="0x00003d79"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="133" ypos="1883" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF40.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="" type="10" xpos="21" ypos="1833" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00003b30"/>
+
+<medit>
+	<block name="" type="10" xpos="21" ypos="1880" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00003c0c"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="131" ypos="2025" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF43.wav"/>
+<jump adr="0x00004053"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="129" ypos="2074" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF44.wav"/>
+<jump adr="0x00004454"/>
+
+
+<medit>
+	<block name="" type="10" xpos="23" ypos="2025" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00003e0a"/>
+
+<medit>
+	<block name="" type="10" xpos="23" ypos="2071" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00003ee6"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="129" ypos="2124" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF45.wav"/>
+<jump adr="0x000044e5"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="125" ypos="2170" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF46.wav"/>
+<jump adr="0x00004576"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="128" ypos="2215" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF47.wav"/>
+<jump adr="0x00004607"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="130" ypos="2260" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF48.wav"/>
+<jump adr="0x00004b2a"/>
+
+
+<medit>
+	<block name="" type="10" xpos="24" ypos="2120" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000040e4"/>
+
+<medit>
+	<block name="" type="10" xpos="24" ypos="2166" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000041c0"/>
+
+<medit>
+	<block name="" type="10" xpos="22" ypos="2213" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000429c"/>
+
+<medit>
+	<block name="" type="10" xpos="21" ypos="2259" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00004378"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="134" ypos="1928" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF41.wav"/>
+<jump adr="0x000048e1"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="133" ypos="1976" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF42.wav"/>
+<jump adr="0x00003fc2"/>
+
+
+<medit>
+	<block name="" type="10" xpos="23" ypos="1927" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00004698"/>
+
+<medit>
+	<block name="" type="10" xpos="21" ypos="1979" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00004774"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="129" ypos="2305" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF49.wav"/>
+<jump adr="0x00004bbb"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="128" ypos="2351" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF50.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="" type="10" xpos="22" ypos="2304" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00004972"/>
+
+<medit>
+	<block name="" type="10" xpos="19" ypos="2351" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00004a4e"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="129" ypos="2495" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF53.wav"/>
+<jump adr="0x00004e95"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="126" ypos="2543" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF54.wav"/>
+<jump adr="0x00005296"/>
+
+
+<medit>
+	<block name="" type="10" xpos="18" ypos="2492" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00004c4c"/>
+
+<medit>
+	<block name="" type="10" xpos="22" ypos="2537" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00004d28"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="129" ypos="2591" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF55.wav"/>
+<jump adr="0x00005327"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="131" ypos="2642" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF56.wav"/>
+<jump adr="0x000053b8"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="130" ypos="2688" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF57.wav"/>
+<jump adr="0x00005449"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="125" ypos="2738" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF58.wav"/>
+<jump adr="0x0000596c"/>
+
+
+<medit>
+	<block name="" type="10" xpos="21" ypos="2588" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00004f26"/>
+
+<medit>
+	<block name="" type="10" xpos="21" ypos="2637" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00005002"/>
+
+<medit>
+	<block name="" type="10" xpos="19" ypos="2682" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000050de"/>
+
+<medit>
+	<block name="" type="10" xpos="20" ypos="2731" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000051ba"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="130" ypos="2401" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF51.wav"/>
+<jump adr="0x00005723"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="132" ypos="2447" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF52.wav"/>
+<jump adr="0x00004e04"/>
+
+
+<medit>
+	<block name="" type="10" xpos="19" ypos="2394" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000054da"/>
+
+<medit>
+	<block name="" type="10" xpos="18" ypos="2444" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000055b6"/>
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="128" ypos="2782" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF59.wav"/>
+<jump adr="0x000059fd"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>" type="6" xpos="130" ypos="2831" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF60.wav"/>
+<jump adr="0x00005e96"/>
+
+
+<medit>
+	<block name="" type="10" xpos="20" ypos="2776" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000057b4"/>
+
+<medit>
+	<block name="" type="10" xpos="17" ypos="2821" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00005890"/>
+
+<medit>
+	<block name="   END   " type="4" xpos="651" ypos="668" bluearrow="16" redarrow="46"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<return/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="458" ypos="54" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF61.wav"/>
+<jump adr="0x00005f27"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="458" ypos="100" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF62.wav"/>
+<jump adr="0x00005fb8"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="460" ypos="150" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF63.wav"/>
+<jump adr="0x0000604a"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="460" ypos="195" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF64.wav"/>
+<jump adr="0x0000644c"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="336" ypos="54" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00005b27"/>
+
+<medit>
+	<block name="~" type="10" xpos="337" ypos="98" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00005c02"/>
+
+<medit>
+	<block name="~" type="10" xpos="338" ypos="142" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00005cde"/>
+
+<medit>
+	<block name="~" type="10" xpos="336" ypos="187" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00005dba"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="463" ypos="239" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF65.wav"/>
+<jump adr="0x000064de"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="463" ypos="290" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF66.wav"/>
+<jump adr="0x00006570"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="466" ypos="336" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF67.wav"/>
+<jump adr="0x00006602"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="465" ypos="382" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF68.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="338" ypos="236" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000060dc"/>
+
+<medit>
+	<block name="~" type="10" xpos="337" ypos="281" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000061b8"/>
+
+<medit>
+	<block name="~" type="10" xpos="338" ypos="328" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00006294"/>
+
+<medit>
+	<block name="~" type="10" xpos="338" ypos="376" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00006370"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="467" ypos="425" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF69.wav"/>
+<jump adr="0x00006a96"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="470" ypos="475" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF70.wav"/>
+<jump adr="0x000073bc"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="469" ypos="618" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF73.wav"/>
+<jump adr="0x00006bba"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="471" ypos="665" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF74.wav"/>
+<jump adr="0x00006fbc"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="337" ypos="423" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00006694"/>
+
+<medit>
+	<block name="~" type="10" xpos="336" ypos="469" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00006770"/>
+
+<medit>
+	<block name="~" type="10" xpos="341" ypos="617" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000684c"/>
+
+<medit>
+	<block name="~" type="10" xpos="341" ypos="665" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00006928"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="470" ypos="714" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF75.wav"/>
+<jump adr="0x0000704e"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="473" ypos="762" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF76.wav"/>
+<jump adr="0x000070e0"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="474" ypos="807" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF77.wav"/>
+<jump adr="0x00007172"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="474" ypos="853" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF78.wav"/>
+<jump adr="0x00007852"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="342" ypos="711" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00006c4c"/>
+
+<medit>
+	<block name="~" type="10" xpos="341" ypos="758" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00006d28"/>
+
+<medit>
+	<block name="~" type="10" xpos="341" ypos="807" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00006e04"/>
+
+<medit>
+	<block name="~" type="10" xpos="341" ypos="851" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00006ee0"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="470" ypos="524" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF71.wav"/>
+<jump adr="0x0000744e"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="470" ypos="574" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF72.wav"/>
+<jump adr="0x00006b28"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="340" ypos="520" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00007204"/>
+
+<medit>
+	<block name="~" type="10" xpos="340" ypos="565" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000072e0"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="474" ypos="907" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF79.wav"/>
+<jump adr="0x000078e4"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="477" ypos="957" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF80.wav"/>
+<jump adr="0x00008216"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="479" ypos="1102" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF83.wav"/>
+<jump adr="0x00007a09"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="479" ypos="1150" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF84.wav"/>
+<jump adr="0x00007e10"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="342" ypos="903" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000074e0"/>
+
+<medit>
+	<block name="~" type="10" xpos="342" ypos="951" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000075bc"/>
+
+<medit>
+	<block name="~" type="10" xpos="344" ypos="1099" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00007698"/>
+
+<medit>
+	<block name="~" type="10" xpos="344" ypos="1147" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00007775"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="479" ypos="1192" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF85.wav"/>
+<jump adr="0x00007ea3"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="478" ypos="1240" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF86.wav"/>
+<jump adr="0x00007f36"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="480" ypos="1288" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF87.wav"/>
+<jump adr="0x00007fc9"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="477" ypos="1333" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF88.wav"/>
+<jump adr="0x000084f5"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="345" ypos="1193" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00007a9c"/>
+
+<medit>
+	<block name="~" type="10" xpos="343" ypos="1239" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00007b79"/>
+
+<medit>
+	<block name="~" type="10" xpos="344" ypos="1285" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00007c56"/>
+
+<medit>
+	<block name="~" type="10" xpos="343" ypos="1330" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00007d33"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="479" ypos="1002" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF81.wav"/>
+<jump adr="0x000082a8"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="477" ypos="1053" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF82.wav"/>
+<jump adr="0x00007976"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="342" ypos="996" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000805c"/>
+
+<medit>
+	<block name="~" type="10" xpos="344" ypos="1047" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00008139"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="477" ypos="1375" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF89.wav"/>
+<jump adr="0x00008588"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="481" ypos="1425" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF90.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="344" ypos="1376" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000833b"/>
+
+<medit>
+	<block name="~" type="10" xpos="344" ypos="1427" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00008418"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="476" ypos="1575" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF93.wav"/>
+<jump adr="0x00008868"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="475" ypos="1623" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF94.wav"/>
+<jump adr="0x00008c6f"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="348" ypos="1571" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000861b"/>
+
+<medit>
+	<block name="~" type="10" xpos="349" ypos="1618" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000086f8"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="475" ypos="1668" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF95.wav"/>
+<jump adr="0x00008d02"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="473" ypos="1714" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF96.wav"/>
+<jump adr="0x00008d95"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="479" ypos="1760" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF97.wav"/>
+<jump adr="0x00008e28"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="478" ypos="1807" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF98.wav"/>
+<jump adr="0x00009356"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="350" ypos="1668" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000088fb"/>
+
+<medit>
+	<block name="~" type="10" xpos="351" ypos="1713" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000089d8"/>
+
+<medit>
+	<block name="~" type="10" xpos="349" ypos="1758" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00008ab5"/>
+
+<medit>
+	<block name="~" type="10" xpos="348" ypos="1804" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00008b92"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="475" ypos="1472" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF91.wav"/>
+<jump adr="0x00009108"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="479" ypos="1527" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF92.wav"/>
+<jump adr="0x000087d5"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="346" ypos="1475" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00008ebb"/>
+
+<medit>
+	<block name="~" type="10" xpos="347" ypos="1521" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00008f98"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="475" ypos="1853" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF99.wav"/>
+<jump adr="0x000093e9"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="477" ypos="1899" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF100.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="347" ypos="1849" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000919b"/>
+
+<medit>
+	<block name="~" type="10" xpos="347" ypos="1896" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00009278"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="475" ypos="2041" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF103.wav"/>
+<jump adr="0x000096cb"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="473" ypos="2090" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF104.wav"/>
+<jump adr="0x00009ad6"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="349" ypos="2041" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000947c"/>
+
+<medit>
+	<block name="~" type="10" xpos="349" ypos="2087" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000955a"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="473" ypos="2140" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF105.wav"/>
+<jump adr="0x00009b69"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="469" ypos="2186" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF106.wav"/>
+<jump adr="0x00009bfc"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="472" ypos="2230" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF107.wav"/>
+<jump adr="0x00009c8f"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="474" ypos="2276" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF108.wav"/>
+<jump adr="0x0000a1c0"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="350" ypos="2136" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000975e"/>
+
+<medit>
+	<block name="~" type="10" xpos="350" ypos="2182" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000983c"/>
+
+<medit>
+	<block name="~" type="10" xpos="348" ypos="2229" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000991a"/>
+
+<medit>
+	<block name="~" type="10" xpos="347" ypos="2275" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000099f8"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="478" ypos="1944" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF101.wav"/>
+<jump adr="0x00009f71"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="477" ypos="1992" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF102.wav"/>
+<jump adr="0x00009638"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="349" ypos="1943" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00009d22"/>
+
+<medit>
+	<block name="~" type="10" xpos="347" ypos="1995" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00009e00"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="473" ypos="2321" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF109.wav"/>
+<jump adr="0x0000a253"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="472" ypos="2367" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF110.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="348" ypos="2320" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000a004"/>
+
+<medit>
+	<block name="~" type="10" xpos="345" ypos="2367" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000a0e2"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="473" ypos="2511" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF113.wav"/>
+<jump adr="0x0000a535"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="470" ypos="2559" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF114.wav"/>
+<jump adr="0x0000a940"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="344" ypos="2508" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000a2e6"/>
+
+<medit>
+	<block name="~" type="10" xpos="348" ypos="2553" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000a3c4"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="473" ypos="2607" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF115.wav"/>
+<jump adr="0x0000a9d3"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="475" ypos="2658" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF116.wav"/>
+<jump adr="0x0000aa66"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="474" ypos="2704" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF117.wav"/>
+<jump adr="0x0000aaf9"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="469" ypos="2754" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF118.wav"/>
+<jump adr="0x0000b02a"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="347" ypos="2604" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000a5c8"/>
+
+<medit>
+	<block name="~" type="10" xpos="347" ypos="2653" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000a6a6"/>
+
+<medit>
+	<block name="~" type="10" xpos="345" ypos="2698" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000a784"/>
+
+<medit>
+	<block name="~" type="10" xpos="346" ypos="2747" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000a862"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="474" ypos="2417" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF111.wav"/>
+<jump adr="0x0000addb"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="476" ypos="2463" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF112.wav"/>
+<jump adr="0x0000a4a2"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="345" ypos="2410" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000ab8c"/>
+
+<medit>
+	<block name="~" type="10" xpos="344" ypos="2460" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000ac6a"/>
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="472" ypos="2798" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF119.wav"/>
+<jump adr="0x0000b0bd"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~" type="6" xpos="474" ypos="2847" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF120.wav"/>
+<jump adr="0x0000b4c7"/>
+
+
+<medit>
+	<block name="~" type="10" xpos="346" ypos="2792" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000ae6e"/>
+
+<medit>
+	<block name="~" type="10" xpos="343" ypos="2837" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000af4c"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="785" ypos="55" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF121.wav"/>
+<jump adr="0x0000b559"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="785" ypos="101" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF122.wav"/>
+<jump adr="0x0000b5eb"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="787" ypos="151" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF123.wav"/>
+<jump adr="0x0000b67e"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="787" ypos="196" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF124.wav"/>
+<jump adr="0x0000ba89"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="645" ypos="55" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000b150"/>
+
+<medit>
+	<block name="~~" type="10" xpos="646" ypos="99" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000b22d"/>
+
+<medit>
+	<block name="~~" type="10" xpos="647" ypos="143" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000b30b"/>
+
+<medit>
+	<block name="~~" type="10" xpos="645" ypos="188" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000b3e9"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="790" ypos="240" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF125.wav"/>
+<jump adr="0x0000bb1c"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="790" ypos="291" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF126.wav"/>
+<jump adr="0x0000bbaf"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="793" ypos="337" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF127.wav"/>
+<jump adr="0x0000bc42"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="792" ypos="383" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF128.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="647" ypos="237" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000b711"/>
+
+<medit>
+	<block name="~~" type="10" xpos="646" ypos="282" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000b7ef"/>
+
+<medit>
+	<block name="~~" type="10" xpos="647" ypos="329" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000b8cd"/>
+
+<medit>
+	<block name="~~" type="10" xpos="647" ypos="377" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000b9ab"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="794" ypos="426" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF129.wav"/>
+<jump adr="0x0000c0e0"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="797" ypos="476" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF130.wav"/>
+<jump adr="0x0000ca19"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="796" ypos="619" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF133.wav"/>
+<jump adr="0x0000c206"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="798" ypos="666" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF134.wav"/>
+<jump adr="0x0000c611"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="646" ypos="424" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000bcd5"/>
+
+<medit>
+	<block name="~~" type="10" xpos="645" ypos="470" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000bdb3"/>
+
+<medit>
+	<block name="~~" type="10" xpos="650" ypos="618" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000be91"/>
+
+<medit>
+	<block name="~~" type="10" xpos="650" ypos="666" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000bf6f"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="799" ypos="714" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF135.wav"/>
+<jump adr="0x0000c6a4"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="800" ypos="763" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF136.wav"/>
+<jump adr="0x0000c737"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="801" ypos="808" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF137.wav"/>
+<jump adr="0x0000c7ca"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="801" ypos="854" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF138.wav"/>
+<jump adr="0x0000ceb9"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="651" ypos="712" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000c299"/>
+
+<medit>
+	<block name="~~" type="10" xpos="650" ypos="759" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000c377"/>
+
+<medit>
+	<block name="~~" type="10" xpos="650" ypos="808" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000c455"/>
+
+<medit>
+	<block name="~~" type="10" xpos="650" ypos="852" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000c533"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="797" ypos="525" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF131.wav"/>
+<jump adr="0x0000caac"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="797" ypos="575" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF132.wav"/>
+<jump adr="0x0000c173"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="649" ypos="521" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000c85d"/>
+
+<medit>
+	<block name="~~" type="10" xpos="649" ypos="566" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000c93b"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="801" ypos="908" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF139.wav"/>
+<jump adr="0x0000cf4c"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="804" ypos="958" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF140.wav"/>
+<jump adr="0x0000d891"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="806" ypos="1103" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF143.wav"/>
+<jump adr="0x0000d073"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="806" ypos="1151" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF144.wav"/>
+<jump adr="0x0000d483"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="651" ypos="904" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000cb3f"/>
+
+<medit>
+	<block name="~~" type="10" xpos="651" ypos="952" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000cc1d"/>
+
+<medit>
+	<block name="~~" type="10" xpos="653" ypos="1100" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000ccfb"/>
+
+<medit>
+	<block name="~~" type="10" xpos="653" ypos="1148" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000cdda"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="806" ypos="1198" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF145.wav"/>
+<jump adr="0x0000d517"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="805" ypos="1241" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF146.wav"/>
+<jump adr="0x0000d5ab"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="807" ypos="1289" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF147.wav"/>
+<jump adr="0x0000d63f"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="804" ypos="1334" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF148.wav"/>
+<jump adr="0x0000db76"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="654" ypos="1194" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000d107"/>
+
+<medit>
+	<block name="~~" type="10" xpos="652" ypos="1240" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000d1e6"/>
+
+<medit>
+	<block name="~~" type="10" xpos="653" ypos="1286" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000d2c5"/>
+
+<medit>
+	<block name="~~" type="10" xpos="652" ypos="1331" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000d3a4"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="806" ypos="1003" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF141.wav"/>
+<jump adr="0x0000d924"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="804" ypos="1054" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF142.wav"/>
+<jump adr="0x0000cfdf"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="651" ypos="997" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000d6d3"/>
+
+<medit>
+	<block name="~~" type="10" xpos="653" ypos="1048" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000d7b2"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="804" ypos="1376" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF149.wav"/>
+<jump adr="0x0000dc0a"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="802" ypos="1429" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF150.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="653" ypos="1377" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000d9b8"/>
+
+<medit>
+	<block name="~~" type="10" xpos="653" ypos="1428" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000da97"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="803" ypos="1576" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF153.wav"/>
+<jump adr="0x0000def0"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="802" ypos="1624" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF154.wav"/>
+<jump adr="0x0000e300"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="657" ypos="1572" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000dc9e"/>
+
+<medit>
+	<block name="~~" type="10" xpos="658" ypos="1619" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000dd7d"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="802" ypos="1669" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF155.wav"/>
+<jump adr="0x0000e394"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="800" ypos="1714" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF156.wav"/>
+<jump adr="0x0000e428"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="798" ypos="1761" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF157.wav"/>
+<jump adr="0x0000e4bc"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="805" ypos="1808" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF158.wav"/>
+<jump adr="0x0000e9f4"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="659" ypos="1669" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000df84"/>
+
+<medit>
+	<block name="~~" type="10" xpos="660" ypos="1714" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000e063"/>
+
+<medit>
+	<block name="~~" type="10" xpos="658" ypos="1759" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000e142"/>
+
+<medit>
+	<block name="~~" type="10" xpos="657" ypos="1805" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000e221"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="802" ypos="1473" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF151.wav"/>
+<jump adr="0x0000e7a2"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="806" ypos="1528" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF152.wav"/>
+<jump adr="0x0000de5c"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="655" ypos="1476" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000e550"/>
+
+<medit>
+	<block name="~~" type="10" xpos="656" ypos="1522" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000e62f"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="802" ypos="1854" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF159.wav"/>
+<jump adr="0x0000ea88"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="804" ypos="1900" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF160.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="656" ypos="1850" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000e836"/>
+
+<medit>
+	<block name="~~" type="10" xpos="656" ypos="1897" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000e915"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="802" ypos="2042" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF163.wav"/>
+<jump adr="0x0000ed6e"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="800" ypos="2091" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF164.wav"/>
+<jump adr="0x0000f17e"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="658" ypos="2042" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000eb1c"/>
+
+<medit>
+	<block name="~~" type="10" xpos="658" ypos="2088" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000ebfb"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="800" ypos="2141" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF165.wav"/>
+<jump adr="0x0000f212"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="796" ypos="2187" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF166.wav"/>
+<jump adr="0x0000f2a6"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="799" ypos="2232" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF167.wav"/>
+<jump adr="0x0000f33a"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="801" ypos="2277" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF168.wav"/>
+<jump adr="0x0000f872"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="659" ypos="2137" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000ee02"/>
+
+<medit>
+	<block name="~~" type="10" xpos="659" ypos="2183" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000eee1"/>
+
+<medit>
+	<block name="~~" type="10" xpos="657" ypos="2230" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000efc0"/>
+
+<medit>
+	<block name="~~" type="10" xpos="656" ypos="2276" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000f09f"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="805" ypos="1945" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF161.wav"/>
+<jump adr="0x0000f620"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="804" ypos="1993" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF162.wav"/>
+<jump adr="0x0000ecda"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="658" ypos="1944" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000f3ce"/>
+
+<medit>
+	<block name="~~" type="10" xpos="656" ypos="1996" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000f4ad"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="800" ypos="2322" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF169.wav"/>
+<jump adr="0x0000f906"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="799" ypos="2368" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF170.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="657" ypos="2321" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000f6b4"/>
+
+<medit>
+	<block name="~~" type="10" xpos="654" ypos="2368" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000f793"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="800" ypos="2512" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF173.wav"/>
+<jump adr="0x0000fbec"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="797" ypos="2560" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF174.wav"/>
+<jump adr="0x0000fffc"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="653" ypos="2509" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000f99a"/>
+
+<medit>
+	<block name="~~" type="10" xpos="657" ypos="2554" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000fa79"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="800" ypos="2608" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF175.wav"/>
+<jump adr="0x00010090"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="802" ypos="2659" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF176.wav"/>
+<jump adr="0x00010124"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="801" ypos="2705" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF177.wav"/>
+<jump adr="0x000101b8"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="796" ypos="2755" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF178.wav"/>
+<jump adr="0x000106f0"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="656" ypos="2605" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000fc80"/>
+
+<medit>
+	<block name="~~" type="10" xpos="656" ypos="2654" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000fd5f"/>
+
+<medit>
+	<block name="~~" type="10" xpos="654" ypos="2699" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000fe3e"/>
+
+<medit>
+	<block name="~~" type="10" xpos="655" ypos="2748" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0000ff1d"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="801" ypos="2418" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF171.wav"/>
+<jump adr="0x0001049e"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="803" ypos="2464" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF172.wav"/>
+<jump adr="0x0000fb58"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="654" ypos="2411" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001024c"/>
+
+<medit>
+	<block name="~~" type="10" xpos="653" ypos="2461" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001032b"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="799" ypos="2799" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF179.wav"/>
+<jump adr="0x00010784"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="801" ypos="2848" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF180.wav"/>
+<jump adr="0x00010b96"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="655" ypos="2793" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00010532"/>
+
+<medit>
+	<block name="~~" type="10" xpos="652" ypos="2838" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00010611"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1146" ypos="52" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF181.wav"/>
+<jump adr="0x00010c29"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1146" ypos="98" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF182.wav"/>
+<jump adr="0x00010cbc"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1148" ypos="148" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF183.wav"/>
+<jump adr="0x00010d50"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1148" ypos="193" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF184.wav"/>
+<jump adr="0x00011164"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="988" ypos="52" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00010818"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="989" ypos="96" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000108f7"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="990" ypos="140" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000109d6"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="988" ypos="185" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00010ab6"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1151" ypos="237" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF185.wav"/>
+<jump adr="0x000111f8"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1151" ypos="288" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF186.wav"/>
+<jump adr="0x0001128c"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1155" ypos="333" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF187.wav"/>
+<jump adr="0x00011320"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1153" ypos="380" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF188.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="990" ypos="234" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00010de4"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="989" ypos="279" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00010ec4"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="990" ypos="326" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00010fa4"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="990" ypos="374" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00011084"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1155" ypos="423" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF189.wav"/>
+<jump adr="0x000117c8"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1158" ypos="473" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF190.wav"/>
+<jump adr="0x00012114"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1157" ypos="616" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF193.wav"/>
+<jump adr="0x000118f0"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1159" ypos="663" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF194.wav"/>
+<jump adr="0x00011d04"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="989" ypos="421" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000113b4"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="988" ypos="467" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00011494"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="993" ypos="615" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00011574"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="993" ypos="663" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00011654"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1160" ypos="711" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF195.wav"/>
+<jump adr="0x00011d98"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1161" ypos="760" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF196.wav"/>
+<jump adr="0x00011e2c"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1162" ypos="805" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF197.wav"/>
+<jump adr="0x00011ec0"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1162" ypos="851" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF198.wav"/>
+<jump adr="0x000125be"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="994" ypos="709" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00011984"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="993" ypos="756" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00011a64"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="993" ypos="805" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00011b44"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="993" ypos="849" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00011c24"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1158" ypos="522" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF191.wav"/>
+<jump adr="0x000121a8"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1158" ypos="572" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF192.wav"/>
+<jump adr="0x0001185c"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="992" ypos="518" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00011f54"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="992" ypos="563" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00012034"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1162" ypos="905" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF199.wav"/>
+<jump adr="0x00012652"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1165" ypos="955" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF200.wav"/>
+<jump adr="0x00012faa"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1167" ypos="1099" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF203.wav"/>
+<jump adr="0x0001277b"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1167" ypos="1148" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF204.wav"/>
+<jump adr="0x00012b94"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="994" ypos="901" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001223c"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="994" ypos="949" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001231c"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="996" ypos="1097" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000123fc"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="996" ypos="1145" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000124dd"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1167" ypos="1190" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF205.wav"/>
+<jump adr="0x00012c29"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1166" ypos="1238" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF206.wav"/>
+<jump adr="0x00012cbe"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1168" ypos="1286" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF207.wav"/>
+<jump adr="0x00012d53"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1165" ypos="1331" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF208.wav"/>
+<jump adr="0x00013295"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="997" ypos="1191" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00012810"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="995" ypos="1237" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000128f1"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="996" ypos="1283" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000129d2"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="995" ypos="1328" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00012ab3"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1167" ypos="1000" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF201.wav"/>
+<jump adr="0x0001303e"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1165" ypos="1050" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF202.wav"/>
+<jump adr="0x000126e6"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="994" ypos="994" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00012de8"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="996" ypos="1045" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00012ec9"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1165" ypos="1373" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF209.wav"/>
+<jump adr="0x0001332a"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1169" ypos="1423" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF210.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="996" ypos="1374" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000130d3"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="996" ypos="1425" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000131b4"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1164" ypos="1573" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF213.wav"/>
+<jump adr="0x00013617"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1163" ypos="1621" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF214.wav"/>
+<jump adr="0x00013a31"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="1000" ypos="1569" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000133bf"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="1001" ypos="1616" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000134a0"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1163" ypos="1666" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF215.wav"/>
+<jump adr="0x00013ac7"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1161" ypos="1712" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF216.wav"/>
+<jump adr="0x00013b5d"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1167" ypos="1758" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF217.wav"/>
+<jump adr="0x00013bf3"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1166" ypos="1803" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF218.wav"/>
+<jump adr="0x00014137"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="1002" ypos="1666" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000136ad"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="1003" ypos="1711" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001378e"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="1001" ypos="1756" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001386f"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="1000" ypos="1802" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00013950"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1163" ypos="1470" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF211.wav"/>
+<jump adr="0x00013ee0"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1167" ypos="1525" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF212.wav"/>
+<jump adr="0x00013581"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="998" ypos="1473" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00013c89"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="999" ypos="1519" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00013d6a"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1163" ypos="1851" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF219.wav"/>
+<jump adr="0x000141cc"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1165" ypos="1897" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF220.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="999" ypos="1847" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00013f75"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="999" ypos="1894" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00014056"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1163" ypos="2039" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF223.wav"/>
+<jump adr="0x000144b9"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1161" ypos="2088" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF224.wav"/>
+<jump adr="0x000148d3"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="1001" ypos="2039" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00014261"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="1001" ypos="2085" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00014342"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1161" ypos="2138" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF225.wav"/>
+<jump adr="0x00014969"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1157" ypos="2184" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF226.wav"/>
+<jump adr="0x000149ff"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1160" ypos="2229" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF227.wav"/>
+<jump adr="0x00014a95"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1162" ypos="2273" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF228.wav"/>
+<jump adr="0x00014fd9"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="1002" ypos="2134" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001454f"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="1002" ypos="2180" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00014630"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="1000" ypos="2227" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00014711"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="999" ypos="2273" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000147f2"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1166" ypos="1942" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF221.wav"/>
+<jump adr="0x00014d82"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1165" ypos="1990" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF222.wav"/>
+<jump adr="0x00014423"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="1001" ypos="1941" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00014b2a"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="999" ypos="1993" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00014c0b"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1161" ypos="2319" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF229.wav"/>
+<jump adr="0x0001506f"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1160" ypos="2365" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF230.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="1000" ypos="2318" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00014e17"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="997" ypos="2365" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00014ef8"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1161" ypos="2509" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF233.wav"/>
+<jump adr="0x0001535b"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1158" ypos="2557" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF234.wav"/>
+<jump adr="0x00015775"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="996" ypos="2506" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00015104"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="1000" ypos="2551" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000151e5"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1161" ypos="2605" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF235.wav"/>
+<jump adr="0x0001580a"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1163" ypos="2656" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF236.wav"/>
+<jump adr="0x0001589f"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1162" ypos="2702" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF237.wav"/>
+<jump adr="0x00015934"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1157" ypos="2752" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF238.wav"/>
+<jump adr="0x00015e77"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="999" ypos="2602" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000153f1"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="999" ypos="2651" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000154d2"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="997" ypos="2696" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000155b3"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="998" ypos="2745" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00015694"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1162" ypos="2415" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF231.wav"/>
+<jump adr="0x00015c20"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1164" ypos="2461" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF232.wav"/>
+<jump adr="0x000152c6"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="997" ypos="2408" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000159c9"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="996" ypos="2458" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00015aaa"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1160" ypos="2796" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF239.wav"/>
+<jump adr="0x00015f0c"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~~" type="6" xpos="1162" ypos="2845" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF240.wav"/>
+<jump adr="0x00016119"/>
+
+
+<medit>
+	<block name="~~~" type="10" xpos="998" ypos="2790" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00015cb5"/>
+
+<medit>
+	<block name="~~~" type="10" xpos="995" ypos="2835" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00015d96"/>
+
+<medit>
+	<block name="   END   " type="4" xpos="1313" ypos="363" bluearrow="16" redarrow="46"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<return/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1514" ypos="56" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF241.wav"/>
+<jump adr="0x0001636a"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="1373" ypos="56" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001603b"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1522" ypos="338" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF247.wav"/>
+<jump adr="0x000163fe"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1521" ypos="384" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF248.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="1375" ypos="330" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000161ac"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1375" ypos="378" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001628b"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1523" ypos="427" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF249.wav"/>
+<jump adr="0x000168a2"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1526" ypos="477" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF250.wav"/>
+<jump adr="0x000171e8"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1525" ypos="620" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF253.wav"/>
+<jump adr="0x000169ca"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1527" ypos="667" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF254.wav"/>
+<jump adr="0x00016dda"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="1374" ypos="425" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00016492"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1373" ypos="471" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00016571"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1378" ypos="619" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00016650"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1378" ypos="667" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001672f"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1528" ypos="715" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF255.wav"/>
+<jump adr="0x00016e6e"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1529" ypos="764" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF256.wav"/>
+<jump adr="0x00016f02"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1530" ypos="809" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF257.wav"/>
+<jump adr="0x00016f96"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1530" ypos="855" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF258.wav"/>
+<jump adr="0x0001768e"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="1379" ypos="713" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00016a5e"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1378" ypos="760" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00016b3d"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1378" ypos="809" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00016c1c"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1378" ypos="853" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00016cfb"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1526" ypos="526" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF251.wav"/>
+<jump adr="0x0001727c"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1526" ypos="576" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF252.wav"/>
+<jump adr="0x00016936"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="1377" ypos="522" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001702a"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1377" ypos="567" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00017109"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1530" ypos="909" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF259.wav"/>
+<jump adr="0x00017722"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1533" ypos="959" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF260.wav"/>
+<jump adr="0x00018074"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1535" ypos="1104" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF263.wav"/>
+<jump adr="0x0001784b"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1535" ypos="1152" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF264.wav"/>
+<jump adr="0x00017c60"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="1379" ypos="905" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00017310"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1379" ypos="953" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000173ef"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1381" ypos="1101" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000174ce"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1381" ypos="1149" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000175ae"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1535" ypos="1194" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF265.wav"/>
+<jump adr="0x00017cf5"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1534" ypos="1242" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF266.wav"/>
+<jump adr="0x00017d8a"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1536" ypos="1290" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF267.wav"/>
+<jump adr="0x00017e1f"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1533" ypos="1335" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF268.wav"/>
+<jump adr="0x0001835d"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="1382" ypos="1195" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000178e0"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1380" ypos="1241" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x000179c0"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1381" ypos="1287" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00017aa0"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1380" ypos="1332" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00017b80"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1535" ypos="1004" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF261.wav"/>
+<jump adr="0x00018108"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1533" ypos="1055" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF262.wav"/>
+<jump adr="0x000177b6"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="1379" ypos="998" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00017eb4"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1381" ypos="1049" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00017f94"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1533" ypos="1377" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF269.wav"/>
+<jump adr="0x000183f2"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1537" ypos="1427" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF270.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="1381" ypos="1378" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001819d"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1381" ypos="1429" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x0001827d"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1532" ypos="1577" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF273.wav"/>
+<jump adr="0x000186dc"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1531" ypos="1625" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF274.wav"/>
+<jump adr="0x00018931"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="1385" ypos="1573" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00018487"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1386" ypos="1620" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00018567"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1531" ypos="1670" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF275.wav"/>
+<jump adr="0x000189c6"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1529" ypos="1716" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF276.wav"/>
+<jump adr="0x00018d45"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="1387" ypos="1670" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00018771"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1388" ypos="1715" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00018851"/>
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1531" ypos="1474" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF271.wav"/>
+<jump adr="0x00018cb0"/>
+
+
+<medit>
+	<block name="<<     SOUND    >>~~" type="6" xpos="1535" ypos="1529" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<play filename="voice\Ninshiki\NF272.wav"/>
+<jump adr="0x00018647"/>
+
+
+<medit>
+	<block name="~~" type="10" xpos="1383" ypos="1477" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00018a5b"/>
+
+<medit>
+	<block name="~~" type="10" xpos="1384" ypos="1523" bluearrow="6" redarrow="6"/>
+</medit>
+<wait data="200"/>
+<jump adr="0x00018b3b"/>
+
+<wait size="1" adr="0x0b43"/>

@@ -1,0 +1,189 @@
+<medit>
+	<format data="2"/>
+</medit>
+
+
+<medit>
+	<block name="" type="3" xpos="50" ypos="10" bluearrow="6" redarrow="0"/>
+</medit>
+<jump adr="0x00000842"/>
+
+
+<medit>
+	<block name="POSE 0" type="0" xpos="50" ypos="46" bluearrow="6" redarrow="6"/>
+</medit>
+<mem_w size="2" adr="0x0a00">
+	0x0000,0x0000,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,
+	0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
+</mem_w>
+<mem_w size="2" adr="0x0b00">0x0032</mem_w>
+<wait size="1" adr="0x0b43"/>
+<jump adr="0x0000145d"/>
+
+
+<medit>
+	<block name="   END   " type="4" xpos="50" ypos="600" bluearrow="16" redarrow="46"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<return/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~" type="5" xpos="347" ypos="218" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="1\057_‚¤‚ñ‚X.RM4"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~" type="5" xpos="523" ypos="209" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="2\142Šð‚µ‚¢‚Ë‚X.RM4"/>
+<jump adr="0x0000145d"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~" type="5" xpos="334" ypos="268" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="2\128‚»‚¤‚¾‚Ë‚X.RM4"/>
+<jump adr="0x0000145d"/>
+
+
+<medit>
+	<block name="ƒ‰ƒ“ƒ_ƒ€’l‚ðŽæ“¾~~~~" type="2" xpos="160" ypos="40" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="0" adr="0x0f00">
+		<vconst data="0"/>
+		<vaddress size="4" adr="0x0084"/>
+		<flagconst data="0"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="4" adr="0x0084"/>
+	<mem_w size="2" adr="0x0f00"/>
+</calc>
+<jump adr="0x000012b9"/>
+
+
+<medit>
+	<block name="ƒ‰ƒ“ƒ_ƒ€’l‚ðŽû‚ß‚é~" type="2" xpos="170" ypos="160" bluearrow="2" redarrow="6"/>
+	<varcalc size="2" data="196613" adr="0x0f00">
+		<vconst data="65539"/>
+		<vaddress size="4" adr="0x0084"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="3"/>
+	<mod/>
+	<mem_w size="2" adr="0x0f00"/>
+</calc>
+
+
+<medit>
+	<block name="”’l‚ª0H~~~~" type="1" xpos="168" ypos="213" bluearrow="16" redarrow="46"/>
+	<varcalc size="2" data="0" adr="0x0f00">
+		<vconst data="65536"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="0"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x000005c8"/>
+</calc>
+
+<jump adr="0x00000cc5"/>
+
+
+<medit>
+	<block name="”’l‚ª1H~~~" type="1" xpos="167" ypos="265" bluearrow="16" redarrow="46"/>
+	<varcalc size="2" data="65536" adr="0x0f00">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="1"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00000764"/>
+</calc>
+
+<jump adr="0x00001017"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~" type="5" xpos="333" ypos="392" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="3\N21ƒEƒLƒEƒL‚X.RM4"/>
+<jump adr="0x0000145d"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~" type="5" xpos="364" ypos="527" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="2\Y148‚â‚Á‚½‚Ë‚X.RM4"/>
+<jump adr="0x0000145d"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~~" type="5" xpos="334" ypos="326" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="2\669–l‚àŠð‚µ‚¢‚È‚X.RM4"/>
+<jump adr="0x0000145d"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~" type="5" xpos="374" ypos="596" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="2\193‚¨‚ß‚Å‚Æ‚¤‚X.RM4"/>
+<jump adr="0x0000145d"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~~" type="5" xpos="515" ypos="401" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="2\192‚â‚Á‚½[‚X.RM4"/>
+<jump adr="0x0000145d"/>
+
+
+<medit>
+	<block name="ÅãˆÊƒrƒbƒg‚ð0‚É‚·‚é~~" type="2" xpos="170" ypos="100" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="2147418118" adr="0x0f00">
+		<vconst data="98303"/>
+		<vaddress size="4" adr="0x0084"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="32767"/>
+	<and/>
+	<mem_w size="2" adr="0x0f00"/>
+</calc>
+<jump adr="0x000009b4"/>
+
+
+<wait size="1" adr="0x0b43"/>

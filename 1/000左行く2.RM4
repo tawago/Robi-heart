@@ -1,0 +1,109 @@
+<medit>
+	<format data="2"/>
+</medit>
+
+
+<medit>
+	<block name="" type="3" xpos="26" ypos="9" bluearrow="6" redarrow="0"/>
+</medit>
+<jump adr="0x0000013f"/>
+
+
+<medit>
+	<block name="   END   " type="4" xpos="43" ypos="451" bluearrow="16" redarrow="46"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<return/>
+
+
+<medit>
+	<block name="立ち状態？" type="1" xpos="30" ypos="60" bluearrow="16" redarrow="26"/>
+	<varcalc size="1" data="0" adr="0x0f82">
+		<vconst data="65536"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="1" adr="0x0f82"/>
+	<const data="0"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00000460"/>
+</calc>
+
+<jump adr="0x000002cd"/>
+
+
+<medit>
+	<block name="座り状態？" type="1" xpos="25" ypos="202" bluearrow="16" redarrow="12"/>
+	<varcalc size="1" data="65536" adr="0x0f82">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="1" adr="0x0f82"/>
+	<const data="1"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x0000052d"/>
+</calc>
+
+<jump adr="0x000000a7"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~" type="5" xpos="188" ypos="75" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="歩行左4S.RM4"/>
+<jump adr="0x00000cb5"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~" type="5" xpos="202" ypos="207" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="両手起き上がり左.RM4"/>
+<jump adr="0x00000be6"/>
+
+
+<medit>
+	<block name="ん座右~~" type="0" xpos="33" ypos="543" bluearrow="6" redarrow="6"/>
+</medit>
+<mem_w size="2" adr="0x0a00">
+	0x0000,0x0064,0xffe2,0x0000,0xfbe6,0x0064,0x0000,0x0000,0xfef2,0x0000,0x0000,0x0000,0x001e,0x0000,0x041a,0x0064,0x0000,0x0000,0x010e,0x0000,0x0000,0x0000,0x0000,0x0064,
+	0xfe0c,0x0064,0xfecd,0x0064,0x0015,0x0064,0xff88,0x0064,0x0096,0x0064,0xfe66,0x0064,0x0078,0x0064,0xff6a,0x0064,0x019a,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x00af,0x0046,0x0000,0x00af,0x0046,0x0000,0x0032,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
+</mem_w>
+<mem_w size="2" adr="0x0b00">0x0014</mem_w>
+<wait size="1" adr="0x0b43"/>
+<medit>
+	<servoenable size="1" data="-68812700"/>
+	<servoenable size="3" data="-17694620"/>
+	<servoenable size="4" data="100"/>
+	<servoenable size="5" data="1966180"/>
+	<servoenable size="6" data="68812900"/>
+	<servoenable size="8" data="17694820"/>
+	<servoenable size="9" data="100"/>
+	<servoenable size="10" data="100"/>
+</medit>
+<jump adr="0x00000cb5"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~" type="5" xpos="208" ypos="260" bluearrow="6" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="歩行左4S.RM4"/>
+<jump adr="0x00000cb5"/>
+
+
+<wait size="1" adr="0x0b43"/>

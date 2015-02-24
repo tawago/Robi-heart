@@ -1,0 +1,1806 @@
+<medit>
+	<format data="2"/>
+</medit>
+
+
+<medit>
+	<block name="" type="3" xpos="19" ypos="0" bluearrow="6" redarrow="0"/>
+</medit>
+<jump adr="0x000023c8"/>
+
+
+<medit>
+	<block name="POSE 0" type="0" xpos="27" ypos="802" bluearrow="6" redarrow="6"/>
+</medit>
+<mem_w size="2" adr="0x0a00">
+	0x0000,0x0000,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,
+	0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0064,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0064,0x0000,0x0000,0x0064,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
+</mem_w>
+<mem_w size="2" adr="0x0b00">0x0032</mem_w>
+<wait size="1" adr="0x0b43"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="   END   " type="4" xpos="112" ypos="820" bluearrow="16" redarrow="46"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<return/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~" type="5" xpos="222" ypos="19" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\642僕のわかる言葉は２５０以上である9.RM4"/>
+<jump adr="0x00001147"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~" type="5" xpos="200" ypos="499" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\647デアゴスティーニは日本で千年歴史9.RM4"/>
+<jump adr="0x00003991"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~" type="5" xpos="229" ypos="183" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\643僕のパーツ数は３０個以上である9.RM4"/>
+<jump adr="0x000024b1"/>
+
+
+<medit>
+	<block name="ランダム値を取得~~~~" type="2" xpos="0" ypos="160" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="0" adr="0x0f00">
+		<vconst data="0"/>
+		<vaddress size="4" adr="0x0084"/>
+		<flagconst data="0"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="4" adr="0x0084"/>
+	<mem_w size="2" adr="0x0f00"/>
+</calc>
+<jump adr="0x0000a2b2"/>
+
+
+<medit>
+	<block name="ランダム値を収める~" type="2" xpos="0" ypos="233" bluearrow="2" redarrow="6"/>
+	<varcalc size="2" data="720901" adr="0x0f00">
+		<vconst data="65547"/>
+		<vaddress size="4" adr="0x0084"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="11"/>
+	<mod/>
+	<mem_w size="2" adr="0x0f00"/>
+</calc>
+
+
+<medit>
+	<block name="数値が0？~~~~" type="1" xpos="0" ypos="281" bluearrow="16" redarrow="46"/>
+	<varcalc size="2" data="0" adr="0x0f00">
+		<vconst data="65536"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="0"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x000005c9"/>
+</calc>
+
+<jump adr="0x00000d21"/>
+
+
+<medit>
+	<block name="数値が1？~~~" type="1" xpos="0" ypos="331" bluearrow="16" redarrow="46"/>
+	<varcalc size="2" data="65536" adr="0x0f00">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="1"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x000007af"/>
+</calc>
+
+<jump adr="0x00000eb5"/>
+
+
+<medit>
+	<block name="数値が2?" type="1" xpos="0" ypos="379" bluearrow="16" redarrow="46"/>
+	<varcalc size="2" data="131072" adr="0x0f00">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="2"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00001046"/>
+</calc>
+
+<jump adr="0x00008d7d"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~" type="5" xpos="169" ypos="324" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\645デアゴスティーニから創刊されたのは１５０以上9.RM4"/>
+<jump adr="0x00002f1d"/>
+
+
+<medit>
+	<block name="音声認識を開始~" type="2" xpos="510" ypos="21" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="8585216" adr="0x0e56">
+		<vconst data="65667"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="131"/>
+	<mem_w size="2" adr="0x0e56"/>
+</calc>
+<jump adr="0x00001a86"/>
+
+
+<medit>
+	<block name="音声認識処理が完了？~" type="1" xpos="522" ypos="121" bluearrow="54" redarrow="26"/>
+	<varcalc size="2" data="65543" adr="0x0e5a">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="1"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00001452"/>
+</calc>
+
+<jump adr="0x00001147"/>
+
+
+<medit>
+	<block name="何も聞き取れなかったか？~" type="1" xpos="741" ypos="25" bluearrow="40" redarrow="27"/>
+	<varcalc size="2" data="131079" adr="0x0e5a">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="2"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00001147"/>
+</calc>
+
+<jump adr="0x000015f5"/>
+
+
+<medit>
+	<block name="はい" type="1" xpos="741" ypos="71" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14090240" adr="0x0e5c">
+		<vconst data="65751"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="215"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00002216"/>
+</calc>
+
+<jump adr="0x000018f1"/>
+
+
+<medit>
+	<block name="シーンを設定~" type="2" xpos="0" ypos="120" bluearrow="16" redarrow="6"/>
+	<varcalc size="2" data="8454144" adr="0x0e52">
+		<vconst data="65665"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="129"/>
+	<mem_w size="2" adr="0x0e52"/>
+</calc>
+<jump adr="0x000008a2"/>
+
+
+<medit>
+	<block name="いいえ" type="1" xpos="740" ypos="112" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14155776" adr="0x0e5c">
+		<vconst data="65752"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="216"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x000022ee"/>
+</calc>
+
+<jump adr="0x00001147"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="533" ypos="74" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="1\000姿勢別ポーズ9.RM4"/>
+<jump adr="0x000012b3"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~" type="5" xpos="207" ypos="685" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\648僕の背中のマフラーはタオル掛けである9.RM4"/>
+<jump adr="0x000043ff"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~" type="5" xpos="184" ypos="1187" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\652僕を組み立てるにはモンキーレンチが必要9.RM4"/>
+<jump adr="0x0000636e"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~~" type="5" xpos="170" ypos="881" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\649全国すべてのロビは開発者の高橋遠隔操作9.RM4"/>
+<jump adr="0x00004e74"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~~" type="5" xpos="196" ypos="1047" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\651僕には臭いセンサでおやつの臭いわかる9.RM4"/>
+<jump adr="0x000058e9"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~~" type="5" xpos="208" ypos="1364" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\655僕はトランペットが得意だ9.RM4"/>
+<jump adr="0x00006df5"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~~~" type="5" xpos="230" ypos="1530" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\653僕はロープ登りが得意だ9.RM4"/>
+<jump adr="0x00007870"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~~~" type="5" xpos="222" ypos="1679" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\654僕は字を書くことが出来る9.RM4"/>
+<jump adr="0x000082dc"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~" type="5" xpos="985" ypos="46" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\374ピンポーン９.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~" type="5" xpos="986" ypos="107" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\375ブッブッー９.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~" type="5" xpos="0" ypos="27" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\372オッケーそれでは問題です9.RM4"/>
+<jump adr="0x0000a1ca"/>
+
+
+<medit>
+	<block name="音声認識を開始~~" type="2" xpos="504" ypos="182" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="8585216" adr="0x0e56">
+		<vconst data="65667"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="131"/>
+	<mem_w size="2" adr="0x0e56"/>
+</calc>
+<jump adr="0x00002c8e"/>
+
+
+<medit>
+	<block name="音声認識処理が完了？~~" type="1" xpos="518" ypos="282" bluearrow="54" redarrow="26"/>
+	<varcalc size="2" data="65543" adr="0x0e5a">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="1"/>
+	<and/>
+	<ne/>
+	<jump adr="0x000027bf"/>
+</calc>
+
+<jump adr="0x000024b1"/>
+
+
+<medit>
+	<block name="何も聞き取れなかったか？~~" type="1" xpos="737" ypos="186" bluearrow="40" redarrow="27"/>
+	<varcalc size="2" data="131079" adr="0x0e5a">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="2"/>
+	<and/>
+	<ne/>
+	<jump adr="0x000024b1"/>
+</calc>
+
+<jump adr="0x00002964"/>
+
+
+<medit>
+	<block name="はい~" type="1" xpos="740" ypos="232" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14090240" adr="0x0e5c">
+		<vconst data="65751"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="215"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00002d68"/>
+</calc>
+
+<jump adr="0x00002af8"/>
+
+
+<medit>
+	<block name="いいえ~" type="1" xpos="739" ypos="273" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14155776" adr="0x0e5c">
+		<vconst data="65752"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="216"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00002e42"/>
+</calc>
+
+<jump adr="0x000024b1"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~" type="5" xpos="520" ypos="235" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="1\000姿勢別ポーズ9.RM4"/>
+<jump adr="0x0000261f"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~" type="5" xpos="967" ypos="207" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\374ピンポーン９.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~" type="5" xpos="970" ypos="268" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\375ブッブッー９.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="音声認識を開始~~~" type="2" xpos="517" ypos="337" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="8585216" adr="0x0e56">
+		<vconst data="65667"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="131"/>
+	<mem_w size="2" adr="0x0e56"/>
+</calc>
+<jump adr="0x000036ff"/>
+
+
+<medit>
+	<block name="音声認識処理が完了？~~~" type="1" xpos="533" ypos="437" bluearrow="54" redarrow="26"/>
+	<varcalc size="2" data="65543" adr="0x0e5a">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="1"/>
+	<and/>
+	<ne/>
+	<jump adr="0x0000322d"/>
+</calc>
+
+<jump adr="0x00002f1d"/>
+
+
+<medit>
+	<block name="何も聞き取れなかったか？~~~" type="1" xpos="752" ypos="341" bluearrow="40" redarrow="27"/>
+	<varcalc size="2" data="131079" adr="0x0e5a">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="2"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00002f1d"/>
+</calc>
+
+<jump adr="0x000033d3"/>
+
+
+<medit>
+	<block name="はい~~" type="1" xpos="758" ypos="387" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14090240" adr="0x0e5c">
+		<vconst data="65751"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="215"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x000037da"/>
+</calc>
+
+<jump adr="0x00003568"/>
+
+
+<medit>
+	<block name="いいえ~~" type="1" xpos="757" ypos="428" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14155776" adr="0x0e5c">
+		<vconst data="65752"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="216"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x000038b5"/>
+</calc>
+
+<jump adr="0x00002f1d"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~" type="5" xpos="526" ypos="390" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="1\000姿勢別ポーズ9.RM4"/>
+<jump adr="0x0000308c"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~" type="5" xpos="979" ypos="372" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\374ピンポーン９.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~" type="5" xpos="973" ypos="423" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\375ブッブッー９.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="音声認識を開始~~~~" type="2" xpos="506" ypos="503" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="8585216" adr="0x0e56">
+		<vconst data="65667"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="131"/>
+	<mem_w size="2" adr="0x0e56"/>
+</calc>
+<jump adr="0x00004178"/>
+
+
+<medit>
+	<block name="音声認識処理が完了？~~~~" type="1" xpos="511" ypos="602" bluearrow="54" redarrow="26"/>
+	<varcalc size="2" data="65543" adr="0x0e5a">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="1"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00003ca3"/>
+</calc>
+
+<jump adr="0x00003991"/>
+
+
+<medit>
+	<block name="何も聞き取れなかったか？~~~~" type="1" xpos="743" ypos="507" bluearrow="40" redarrow="27"/>
+	<varcalc size="2" data="131079" adr="0x0e5a">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="2"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00003991"/>
+</calc>
+
+<jump adr="0x00003e4a"/>
+
+
+<medit>
+	<block name="はい~~~" type="1" xpos="752" ypos="553" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14090240" adr="0x0e5c">
+		<vconst data="65751"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="215"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00004327"/>
+</calc>
+
+<jump adr="0x00003fe0"/>
+
+
+<medit>
+	<block name="いいえ~~~" type="1" xpos="751" ypos="594" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14155776" adr="0x0e5c">
+		<vconst data="65752"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="216"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00004254"/>
+</calc>
+
+<jump adr="0x00003991"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~" type="5" xpos="508" ypos="556" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="1\000姿勢別ポーズ9.RM4"/>
+<jump adr="0x00003b01"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~" type="5" xpos="985" ypos="593" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\376正解９.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="984" ypos="534" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\375ブッブッー９.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="音声認識を開始~~~~~" type="2" xpos="504" ypos="688" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="8585216" adr="0x0e56">
+		<vconst data="65667"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="131"/>
+	<mem_w size="2" adr="0x0e56"/>
+</calc>
+<jump adr="0x00004beb"/>
+
+
+<medit>
+	<block name="音声認識処理が完了？~~~~~" type="1" xpos="524" ypos="788" bluearrow="54" redarrow="26"/>
+	<varcalc size="2" data="65543" adr="0x0e5a">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="1"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00004713"/>
+</calc>
+
+<jump adr="0x000043ff"/>
+
+
+<medit>
+	<block name="何も聞き取れなかったか？~~~~~" type="1" xpos="743" ypos="692" bluearrow="40" redarrow="27"/>
+	<varcalc size="2" data="131079" adr="0x0e5a">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="2"/>
+	<and/>
+	<ne/>
+	<jump adr="0x000043ff"/>
+</calc>
+
+<jump adr="0x000048bb"/>
+
+
+<medit>
+	<block name="はい~~~~" type="1" xpos="755" ypos="738" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14090240" adr="0x0e5c">
+		<vconst data="65751"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="215"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00004da0"/>
+</calc>
+
+<jump adr="0x00004a52"/>
+
+
+<medit>
+	<block name="いいえ~~~~" type="1" xpos="754" ypos="779" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14155776" adr="0x0e5c">
+		<vconst data="65752"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="216"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00004cc8"/>
+</calc>
+
+<jump adr="0x000043ff"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~" type="5" xpos="499" ypos="741" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="1\000姿勢別ポーズ9.RM4"/>
+<jump adr="0x00004570"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="991" ypos="781" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\374ピンポーン９.RM4"/>
+<jump adr="0x00009893"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="991" ypos="726" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\377違うよ９.RM4"/>
+<jump adr="0x00009893"/>
+
+
+<medit>
+	<block name="音声認識を開始~~~~~~" type="2" xpos="504" ypos="870" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="8585216" adr="0x0e56">
+		<vconst data="65667"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="131"/>
+	<mem_w size="2" adr="0x0e56"/>
+</calc>
+<jump adr="0x00005665"/>
+
+
+<medit>
+	<block name="音声認識処理が完了？~~~~~~" type="1" xpos="526" ypos="970" bluearrow="54" redarrow="26"/>
+	<varcalc size="2" data="65543" adr="0x0e5a">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="1"/>
+	<and/>
+	<ne/>
+	<jump adr="0x0000518a"/>
+</calc>
+
+<jump adr="0x00004e74"/>
+
+
+<medit>
+	<block name="何も聞き取れなかったか？~~~~~~" type="1" xpos="745" ypos="874" bluearrow="40" redarrow="27"/>
+	<varcalc size="2" data="131079" adr="0x0e5a">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="2"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00004e74"/>
+</calc>
+
+<jump adr="0x00005333"/>
+
+
+<medit>
+	<block name="はい~~~~~" type="1" xpos="760" ypos="920" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14090240" adr="0x0e5c">
+		<vconst data="65751"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="215"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00005815"/>
+</calc>
+
+<jump adr="0x000054cb"/>
+
+
+<medit>
+	<block name="いいえ~~~~~" type="1" xpos="759" ypos="961" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14155776" adr="0x0e5c">
+		<vconst data="65752"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="216"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00005743"/>
+</calc>
+
+<jump adr="0x00004e74"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~" type="5" xpos="492" ypos="923" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="1\000姿勢別ポーズ9.RM4"/>
+<jump adr="0x00004fe6"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="995" ypos="958" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\376正解９.RM4"/>
+<jump adr="0x00009981"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="996" ypos="901" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\377違うよ９.RM4"/>
+<jump adr="0x00009981"/>
+
+
+<medit>
+	<block name="音声認識を開始~~~~~~~" type="2" xpos="516" ypos="1038" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="8585216" adr="0x0e56">
+		<vconst data="65667"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="131"/>
+	<mem_w size="2" adr="0x0e56"/>
+</calc>
+<jump adr="0x000060e4"/>
+
+
+<medit>
+	<block name="音声認識処理が完了？~~~~~~~" type="1" xpos="540" ypos="1138" bluearrow="54" redarrow="26"/>
+	<varcalc size="2" data="65543" adr="0x0e5a">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="1"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00005c03"/>
+</calc>
+
+<jump adr="0x000058e9"/>
+
+
+<medit>
+	<block name="何も聞き取れなかったか？~~~~~~~" type="1" xpos="759" ypos="1042" bluearrow="40" redarrow="27"/>
+	<varcalc size="2" data="131079" adr="0x0e5a">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="2"/>
+	<and/>
+	<ne/>
+	<jump adr="0x000058e9"/>
+</calc>
+
+<jump adr="0x00005dae"/>
+
+
+<medit>
+	<block name="はい~~~~~~" type="1" xpos="777" ypos="1088" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14090240" adr="0x0e5c">
+		<vconst data="65751"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="215"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00006298"/>
+</calc>
+
+<jump adr="0x00005f48"/>
+
+
+<medit>
+	<block name="いいえ~~~~~~" type="1" xpos="772" ypos="1133" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14155776" adr="0x0e5c">
+		<vconst data="65752"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="216"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x000061c4"/>
+</calc>
+
+<jump adr="0x000058e9"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~" type="5" xpos="497" ypos="1091" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="1\000姿勢別ポーズ9.RM4"/>
+<jump adr="0x00005a5d"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="1005" ypos="1122" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\376正解９.RM4"/>
+<jump adr="0x00009b5c"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="1005" ypos="1060" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\377違うよ９.RM4"/>
+<jump adr="0x00009b5c"/>
+
+
+<medit>
+	<block name="音声認識を開始~~~~~~~~" type="2" xpos="519" ypos="1195" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="8585216" adr="0x0e56">
+		<vconst data="65667"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="131"/>
+	<mem_w size="2" adr="0x0e56"/>
+</calc>
+<jump adr="0x00006b66"/>
+
+
+<medit>
+	<block name="音声認識処理が完了？" type="1" xpos="519" ypos="1295" bluearrow="54" redarrow="26"/>
+	<varcalc size="2" data="65543" adr="0x0e5a">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="1"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00006682"/>
+</calc>
+
+<jump adr="0x0000636e"/>
+
+
+<medit>
+	<block name="何も聞き取れなかったか？~~~~~~~~" type="1" xpos="764" ypos="1199" bluearrow="40" redarrow="27"/>
+	<varcalc size="2" data="131079" adr="0x0e5a">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="2"/>
+	<and/>
+	<ne/>
+	<jump adr="0x0000636e"/>
+</calc>
+
+<jump adr="0x0000682e"/>
+
+
+<medit>
+	<block name="はい~~~~~~~" type="1" xpos="785" ypos="1245" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14090240" adr="0x0e5c">
+		<vconst data="65751"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="215"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00006d1b"/>
+</calc>
+
+<jump adr="0x000069c9"/>
+
+
+<medit>
+	<block name="いいえ~~~~~~~" type="1" xpos="784" ypos="1286" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14155776" adr="0x0e5c">
+		<vconst data="65752"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="216"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00006c47"/>
+</calc>
+
+<jump adr="0x0000636e"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~" type="5" xpos="508" ypos="1248" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="1\000姿勢別ポーズ9.RM4"/>
+<jump adr="0x000064e3"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="1011" ypos="1272" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\376正解９.RM4"/>
+<jump adr="0x00009a6e"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="1004" ypos="1210" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\375ブッブッー９.RM4"/>
+<jump adr="0x00009a6e"/>
+
+
+<medit>
+	<block name="音声認識を開始" type="2" xpos="513" ypos="1357" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="8585216" adr="0x0e56">
+		<vconst data="65667"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="131"/>
+	<mem_w size="2" adr="0x0e56"/>
+</calc>
+<jump adr="0x000075e8"/>
+
+
+<medit>
+	<block name="音声認識処理が完了？" type="1" xpos="507" ypos="1462" bluearrow="54" redarrow="26"/>
+	<varcalc size="2" data="65543" adr="0x0e5a">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="1"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00007101"/>
+</calc>
+
+<jump adr="0x00006df5"/>
+
+
+<medit>
+	<block name="何も聞き取れなかったか？~~~~~~~~~" type="1" xpos="760" ypos="1361" bluearrow="40" redarrow="27"/>
+	<varcalc size="2" data="131079" adr="0x0e5a">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="2"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00006df5"/>
+</calc>
+
+<jump adr="0x000072ae"/>
+
+
+<medit>
+	<block name="はい~~~~~~~~" type="1" xpos="784" ypos="1407" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14090240" adr="0x0e5c">
+		<vconst data="65751"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="215"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00007796"/>
+</calc>
+
+<jump adr="0x0000744a"/>
+
+
+<medit>
+	<block name="いいえ~~~~~~~~" type="1" xpos="783" ypos="1448" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14155776" adr="0x0e5c">
+		<vconst data="65752"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="216"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x000076c2"/>
+</calc>
+
+<jump adr="0x00006df5"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="506" ypos="1410" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="1\000姿勢別ポーズ9.RM4"/>
+<jump adr="0x00006f62"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="1005" ypos="1460" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\376正解９.RM4"/>
+<jump adr="0x00009c51"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="1014" ypos="1401" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\375ブッブッー９.RM4"/>
+<jump adr="0x00009c51"/>
+
+
+<medit>
+	<block name="音声認識を開始" type="2" xpos="514" ypos="1521" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="8585216" adr="0x0e56">
+		<vconst data="65667"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="131"/>
+	<mem_w size="2" adr="0x0e56"/>
+</calc>
+<jump adr="0x00008054"/>
+
+
+<medit>
+	<block name="音声認識処理が完了？" type="1" xpos="509" ypos="1620" bluearrow="54" redarrow="26"/>
+	<varcalc size="2" data="65543" adr="0x0e5a">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="1"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00007b7c"/>
+</calc>
+
+<jump adr="0x00007870"/>
+
+
+<medit>
+	<block name="何も聞き取れなかったか？~~~~~~~~~~" type="1" xpos="763" ypos="1525" bluearrow="40" redarrow="27"/>
+	<varcalc size="2" data="131079" adr="0x0e5a">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="2"/>
+	<and/>
+	<ne/>
+	<jump adr="0x00007870"/>
+</calc>
+
+<jump adr="0x00007d2a"/>
+
+
+<medit>
+	<block name="はい" type="1" xpos="760" ypos="1571" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14090240" adr="0x0e5c">
+		<vconst data="65751"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="215"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00008202"/>
+</calc>
+
+<jump adr="0x00007ebe"/>
+
+
+<medit>
+	<block name="いいえ" type="1" xpos="758" ypos="1614" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14155776" adr="0x0e5c">
+		<vconst data="65752"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="216"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x0000812e"/>
+</calc>
+
+<jump adr="0x00007870"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="515" ypos="1568" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="1\000姿勢別ポーズ9.RM4"/>
+<jump adr="0x000079dd"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="1004" ypos="1606" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\376正解９.RM4"/>
+<jump adr="0x00009ff5"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="1006" ypos="1555" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\375ブッブッー９.RM4"/>
+<jump adr="0x00009ff5"/>
+
+
+<medit>
+	<block name="音声認識を開始~~~~~~~~~~~" type="2" xpos="514" ypos="1677" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="8585216" adr="0x0e56">
+		<vconst data="65667"/>
+		<vaddress size="2" adr="0x0e32"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<const data="131"/>
+	<mem_w size="2" adr="0x0e56"/>
+</calc>
+<jump adr="0x00008aeb"/>
+
+
+<medit>
+	<block name="音声認識処理が完了？~~~~~~~~~~~" type="1" xpos="527" ypos="1776" bluearrow="54" redarrow="26"/>
+	<varcalc size="2" data="65543" adr="0x0e5a">
+		<vconst data="65537"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="1"/>
+	<and/>
+	<ne/>
+	<jump adr="0x000085fe"/>
+</calc>
+
+<jump adr="0x000082dc"/>
+
+
+<medit>
+	<block name="何も聞き取れなかったか？~~~~~~~~~~~" type="1" xpos="766" ypos="1681" bluearrow="40" redarrow="27"/>
+	<varcalc size="2" data="131079" adr="0x0e5a">
+		<vconst data="65538"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5a"/>
+	<const data="2"/>
+	<and/>
+	<ne/>
+	<jump adr="0x000082dc"/>
+</calc>
+
+<jump adr="0x000087ad"/>
+
+
+<medit>
+	<block name="はい~~~~~~~~~~" type="1" xpos="764" ypos="1731" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14090240" adr="0x0e5c">
+		<vconst data="65751"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="215"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00008ca3"/>
+</calc>
+
+<jump adr="0x0000894b"/>
+
+
+<medit>
+	<block name="いいえ~~~~~~~~~~" type="1" xpos="764" ypos="1783" bluearrow="16" redarrow="33"/>
+	<varcalc size="2" data="14155776" adr="0x0e5c">
+		<vconst data="65752"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0e5c"/>
+	<const data="216"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00008bcf"/>
+</calc>
+
+<jump adr="0x000082dc"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~~~" type="5" xpos="519" ypos="1728" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="1\000姿勢別ポーズ9.RM4"/>
+<jump adr="0x00008454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="1002" ypos="1755" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\376正解９.RM4"/>
+<jump adr="0x0000a0df"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>" type="5" xpos="1003" ypos="1707" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="4\375ブッブッー９.RM4"/>
+<jump adr="0x0000a0df"/>
+
+
+<medit>
+	<block name="数値が0？~~~~~" type="1" xpos="3" ypos="428" bluearrow="16" redarrow="46"/>
+	<varcalc size="2" data="196608" adr="0x0f00">
+		<vconst data="65539"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="3"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x000006bb"/>
+</calc>
+
+<jump adr="0x00008f14"/>
+
+
+<medit>
+	<block name="数値が1？~~~~" type="1" xpos="3" ypos="478" bluearrow="16" redarrow="46"/>
+	<varcalc size="2" data="262144" adr="0x0f00">
+		<vconst data="65540"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="4"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00001b5e"/>
+</calc>
+
+<jump adr="0x000090aa"/>
+
+
+<medit>
+	<block name="数値が2?~" type="1" xpos="3" ypos="526" bluearrow="16" redarrow="46"/>
+	<varcalc size="2" data="327680" adr="0x0f00">
+		<vconst data="65541"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="5"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00001d52"/>
+</calc>
+
+<jump adr="0x0000923c"/>
+
+
+<medit>
+	<block name="数値が1？~~~~" type="1" xpos="4" ypos="574" bluearrow="16" redarrow="46"/>
+	<varcalc size="2" data="393216" adr="0x0f00">
+		<vconst data="65542"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="6"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00001e4e"/>
+</calc>
+
+<jump adr="0x000093d2"/>
+
+
+<medit>
+	<block name="数値が2?~" type="1" xpos="4" ypos="622" bluearrow="16" redarrow="46"/>
+	<varcalc size="2" data="458752" adr="0x0f00">
+		<vconst data="65543"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="7"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00001c56"/>
+</calc>
+
+<jump adr="0x00009564"/>
+
+
+<medit>
+	<block name="数値が0？~~~~~~" type="1" xpos="0" ypos="677" bluearrow="16" redarrow="46"/>
+	<varcalc size="2" data="524288" adr="0x0f00">
+		<vconst data="65544"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="8"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00001f49"/>
+</calc>
+
+<jump adr="0x000096fc"/>
+
+
+<medit>
+	<block name="数値が1？~~~~~" type="1" xpos="0" ypos="727" bluearrow="16" redarrow="46"/>
+	<varcalc size="2" data="589824" adr="0x0f00">
+		<vconst data="65545"/>
+		<vaddress size="2" adr="0x0f00"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="9"/>
+	<sub/>
+	<eq/>
+	<jump adr="0x00002038"/>
+</calc>
+
+<jump adr="0x00002126"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~" type="5" xpos="1151" ypos="750" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\656取っ手だよ僕を運ぶとき持ってね9.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~" type="5" xpos="1171" ypos="941" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\657僕は自分で考えて動いているよ9.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~" type="5" xpos="1151" ypos="1261" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\659付属のドライバ一本で組み立て9.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~" type="5" xpos="1185" ypos="1085" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\658臭いセンサ入ってないけど人感センサ9.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~" type="5" xpos="1156" ypos="1434" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\660それは違うロボットだよ9.RM4"/>
+<jump adr="0x00009f0f"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~" type="5" xpos="1362" ypos="1571" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\661僕はサッカーが得意なんだ9.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~" type="5" xpos="1352" ypos="1729" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\662僕はダンスが得意だよ9.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~" type="5" xpos="1362" ypos="1434" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\663僕は歌が得意だよ9.RM4"/>
+<jump adr="0x0000a454"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~" type="5" xpos="1144" ypos="1573" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\660それは違うロボットだよ9.RM4"/>
+<jump adr="0x00009d3a"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~" type="5" xpos="1143" ypos="1731" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\660それは違うロボットだよ9.RM4"/>
+<jump adr="0x00009e26"/>
+
+
+<medit>
+	<block name="<<SUB ROUTINE>>~~~~~~~~" type="5" xpos="0" ypos="69" bluearrow="180" redarrow="6"/>
+</medit>
+<wait size="1" adr="0x0b43"/>
+<call filename="7\633はいかいいえで答えてね9.RM4"/>
+<jump adr="0x00001787"/>
+
+
+<medit>
+	<block name="最上位ビットを0にする" type="2" xpos="176" ypos="237" bluearrow="6" redarrow="6"/>
+	<varcalc size="2" data="2147418118" adr="0x0f00">
+		<vconst data="98303"/>
+		<vaddress size="4" adr="0x0084"/>
+		<flagconst data="1"/>
+
+	</varcalc>
+</medit>
+<calc>
+	<mem_r size="2" adr="0x0f00"/>
+	<const data="32767"/>
+	<and/>
+	<mem_w size="2" adr="0x0f00"/>
+</calc>
+<jump adr="0x00000a13"/>
+
+
+<wait size="1" adr="0x0b43"/>
