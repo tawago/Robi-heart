@@ -87,11 +87,10 @@
 	</varcalc>
 </medit>
 <calc>
-	<const data="1"/>
+	<const data="005"/>
 	<mem_w size="2" adr="0x0f00"/>
 </calc>
 <jump adr="0x00001c0a"/>
-
 
 <medit>
 	<block name=" CALCULATION ~" type="2" xpos="541" ypos="308" bluearrow="6" redarrow="6"/>
